@@ -1,0 +1,20 @@
+[
+  {
+    "email": "jade@gmail.com",
+    "password": "123",
+    "name": "Jade",
+    "role": "teacher"
+  },
+  {
+    "email": "thejade1111@gmail.com",
+    "password": "123",
+    "name": "Vruturaj",
+    "role": "student"
+  },
+  {
+    "email": "vruturajsinh1470.be22@chitkarauniversity.edu.in",
+    "password": "123",
+    "name": "2211981470",
+    "role": "student"
+  }
+]

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="createQuestions.css"/>
+  <title>Create Quiz Questions</title>
+</head>
+<body>
+  <h1>Create Quiz Questions</h1>
+  <form method="post" id="questionForm">
+    <table>
+      <tr>
+        <td class="text">Quiz Name</td>
+        <td><input type="text" name="quizName" class="quizName input" /></td>
+      </tr>
+      <tr>
+        <td class="text">Question Text</td>
+        <td><input type="text" name="questionText" class="questionText input" /></td>
+      </tr>
+      <tr>
+        <td class="text">Option 1</td>
+        <td><input type="text" class="option1 input" /></td>
+      </tr>
+      <tr>
+        <td class="text">Option 2</td>
+        <td><input type="text" class="option2 input" /></td>
+      </tr>
+      <tr>
+        <td class="text">Option 3</td>
+        <td><input type="text" class="option3 input" /></td>
+      </tr>
+      <tr>
+        <td class="text">Option 4</td>
+        <td><input type="text" class="option4 input" /></td>
+      </tr>
+      <tr>
+        <td class="text">Correct Answer</td>
+        <td><input type="text" class="answer input" /></td>
+      </tr>
+      <tr>
+        <td><input type="submit" id="submit" class="btn" value="Create Quiz"/></td>
+      </tr>
+      <tr>
+        <td><button id="nextBtn" class="btn">Next</button></td>
+      </tr>
+    </table>
+  </form>
+</body>
+<script>
+  const nextBtn = document.querySelector("#nextBtn");
+  const form = document.querySelector("#questionForm");
+  const submit = document.querySelector("#submit");
+  const quizName = document.querySelector(".quizName");
+
+  let questionArr = [];
+  let questionNo = 1;
+  nextBtn.addEventListener("click", () => {
+    const questionText = document.querySelector(".questionText");
+    const op1 = document.querySelector(".option1");
+    const op2 = document.querySelector(".option2");
+    const op3 = document.querySelector(".option3");
+    const op4 = document.querySelector(".option4");
+    const answer = document.querySelector(".answer");
+
+    let obj = {
+      numb: questionNo++,
+      question: questionText.value,
+      answer: answer.value,
+      options: [op1.value, op2.value, op3.value, op4.value],
+    };
+
+    questionArr.push(obj);
+
+    questionText.value=answer.value="";
+    op1.value=op2.value=op3.value=op4.value="";
+  });
+
+  form.addEventListener("submit",(e)=>{
+    e.preventDefault();
+  })
+
+  submit.addEventListener("click",()=>{
+    let resArr = [{title:quizName.value,questions:questionArr}];
+    fetch("/createQuiz",{
+      method:"POST",
+      body:JSON.stringify(resArr),
+      headers: {
+        'Content-Type': 'application/json'
+      }
+    }).then(()=>{
+      fetch("/getTestCode")
+      .then(response => {
+         if (response.ok) {
+             return response.json();
+         } else {
+             throw new Error('Failed to fetch test code');
+         }
+      })
+      .then(data => {
+         window.location.href = `/CreateQuestions`+data.redirectUrl; 
+      })
+      .catch(error => {
+         console.log('Error:', error);
+      });
+    }).catch((err)=>{
+      console.log(err);
+    })
+  })
+</script>
+</html>

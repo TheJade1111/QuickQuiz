@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Created</title>
+    <link rel="stylesheet" href="testCode.css"/>
+</head>
+<body>
+    <main class="main">
+    <h1>Quiz was created successfully!</h1>
+    <h2></h2>
+    </main>
+    <script>
+        fetch("/code").then((res)=>{
+            return res.json();
+        }).then((code)=>{
+            console.log(code);
+              const h2 = document.querySelector("h2");
+              h2.innerText=`The quiz code is ${code.code}`;
+        }).catch((er)=>{
+            console.log(er);
+        })
+    </script>
+</body>
+</html>

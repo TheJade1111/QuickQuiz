@@ -1,0 +1,246 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.quiz-section{
+    position:relative;
+    left:0;
+    height: 100vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url('img.jpg') no-repeat;
+    background-size: cover;
+    z-index:100;
+    transition: -0.8s ease-in-out;
+    transition-delay: 0.25s;
+}
+
+.quiz-box{
+    position:relative;
+    width:500px;
+    background: transparent;
+    border:2px solid rgb(232, 19, 232);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding:20px 30px;
+}
+
+.sub{
+    color:white;
+}
+h1{
+    font-size:40px;
+    color:whitesmoke;
+    text-align: center;
+    background: linear-gradient(45deg,transparent,purple,transparent);
+    border-radius:6px;
+}
+
+.quiz-header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding:20px 0px;
+   border-bottom: 2px solid rgb(253, 10, 253);
+}
+
+.quiz-header span{
+    font-size:15px;
+    font-weight: 600;
+}
+
+.header-score{
+    background: white;
+    border-radius: 3px;
+    padding:10px;
+}
+
+.question-text{
+    padding-top: 10px;
+    font-size:30px;
+    font-weight:600;
+}
+
+.option{
+    width:100%;
+    padding:12px;
+    background: transparent;
+    border:2px solid rgba(0,0,0,0.2);
+    font-size:17px;
+    border-radius:17px;
+    margin:15px 0;  
+    transition: 0.5s; 
+    cursor: pointer;
+}
+
+.correct{
+      background:black;
+color:green;
+border-color: green;
+}
+
+.incorrect{
+    background:black;
+color:red;
+border-color: red;
+}
+
+.disabled{
+    pointer-events: none;
+}
+.option:hover{
+    background: rgba(255,255,255,0.1);
+    border-color: rgba(255,255,255,0.1);
+}
+
+.quiz-footer{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    border-top:2px solid rgb(253, 10, 253);
+    padding-top:20px;
+}
+
+.question-total{
+    color:rgb(103, 179, 250);
+    font-size:18px;
+    font-weight:600;
+}
+
+.quiz-footer .next-btn{
+    width:100px;
+    background-color: pink;
+    border-radius:5px;
+    padding:7px;
+    border:1px solid rgba(255,255,255,0.1);
+    background-color: rgba(255,255,255,0.1);
+    outline:none;
+    font-size:16px;
+    color:rgba(255,255,255,0.3);
+    font-weight: 600;
+    cursor:pointer;
+    transition: 0.5s;
+    pointer-events: none;
+}
+
+.next-btn.active{
+pointer-events: auto;
+background: purple;
+border-color: purple;
+color:white;
+}
+
+.next-btn.active:hover{
+    background: lightskyblue;
+    border-color: lightskyblue;
+}
+.next-btn:hover{
+    color:black;
+    background-color: rgb(103, 179, 250);
+    border-color:rgb(103, 179, 250);
+}
+
+.option span{
+    color:white;
+}
+
+.question-text{
+    color:rgb(103, 179, 250);
+}
+
+.result-box{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:500px;
+    background: transparent;
+    border: 2px solid red;
+    border-radius: 6px;
+    padding:20px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    opacity:0;
+    pointer-events: none;
+}
+
+.result-box h2{
+    font-size:52px;
+}
+
+.percentage-container{
+    width: 300px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    margin:20px 0 40px;
+}
+
+.circular-progress{
+    position:relative;
+    width:250px;
+    height:250px;
+    background: conic-gradient(red,rgba(255,255,255,0.1) 0deg);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.progress-value{
+    position: relative;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.score-text{
+    font-size:26px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.buttons button{
+    width: 130px;
+    height: 47px;
+    background: red;
+    border: 2px solid red;
+    outline:none;
+    border-radius: 6px;
+    font-size:16px;
+    color:white;
+    font-weight: 600;
+    margin:0 20px 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.buttons button:nth-child(1):hover{
+    background: red;
+    border-color:red;
+}
+
+.buttons button:nth-child(2){
+    background: transparent;
+    color:red;
+}
+
+.buttons{
+    display: flex;
+}
+
+.circular-progress::before{
+    content:"";
+    position: absolute;
+    width:210px;
+    height:210px;
+    background: black;
+    border-radius:50%;
+}

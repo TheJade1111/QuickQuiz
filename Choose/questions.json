@@ -1,0 +1,2953 @@
+[
+    {
+      "title": "Arrays",
+      "content": [
+        {
+          "numb": 1,
+          "question": "What is an array?",
+          "answer": "A collection of elements stored at contiguous memory locations",
+          "options": [
+            "A single variable",
+            "A collection of elements stored at contiguous memory locations",
+            "A type of data structure",
+            "A loop in programming"
+          ]
+        },
+        {
+          "numb": 2,
+          "question": "What is the index of the first element in an array?",
+          "answer": "0",
+          "options": [
+            "1",
+            "0",
+            "-1",
+            "The last index of the array"
+          ]
+        },
+        {
+          "numb": 3,
+          "question": "What is the time complexity of accessing an element in an array?",
+          "answer": "O(1)",
+          "options": [
+            "O(n)",
+            "O(log n)",
+            "O(n^2)",
+            "O(1)"
+          ]
+        },
+        {
+          "numb": 4,
+          "question": "Which operation cannot be performed efficiently on arrays?",
+          "answer": "Insertion or deletion in the middle of the array",
+          "options": [
+            "Accessing elements by index",
+            "Insertion or deletion at the beginning or end of the array",
+            "Insertion or deletion in the middle of the array",
+            "Finding the size of the array"
+          ]
+        },
+        {
+          "numb": 5,
+          "question": "What is a dynamic array?",
+          "answer": "An array that resizes itself automatically when it reaches its capacity",
+          "options": [
+            "An array with fixed size",
+            "An array that can only store integers",
+            "An array with random access",
+            "An array that resizes itself automatically when it reaches its capacity"
+          ]
+        }
+      ]
+    },
+    {
+        "title": "Queues",
+        "content": [
+          {
+            "numb": 1,
+            "question": "What is a queue?",
+            "answer": "A linear data structure where elements are added at one end (rear) and removed from the other end (front)",
+            "options": [
+              "A collection of unordered elements",
+              "A linear data structure where elements are added at one end (rear) and removed from the other end (front)",
+              "A stack with fixed size",
+              "An array with random access"
+            ]
+          },
+          {
+            "numb": 2,
+            "question": "Which operation adds an element to the rear of the queue?",
+            "answer": "Enqueue",
+            "options": [
+              "Push",
+              "Pop",
+              "Enqueue",
+              "Dequeue"
+            ]
+          },
+          {
+            "numb": 3,
+            "question": "Which operation removes an element from the front of the queue?",
+            "answer": "Dequeue",
+            "options": [
+              "Enqueue",
+              "Dequeue",
+              "Push",
+              "Pop"
+            ]
+          },
+          {
+            "numb": 4,
+            "question": "What is the time complexity of enqueue and dequeue operations in a queue?",
+            "answer": "O(1)",
+            "options": [
+              "O(n)",
+              "O(log n)",
+              "O(n^2)",
+              "O(1)"
+            ]
+          },
+          {
+            "numb": 5,
+            "question": "Which data structure is often used to implement a queue?",
+            "answer": "Linked list",
+            "options": [
+              "Array",
+              "Stack",
+              "Queue",
+              "Linked list"
+            ]
+          },
+          {
+            "numb": 6,
+            "question": "What is a priority queue?",
+            "answer": "A type of queue where each element has a priority assigned to it",
+            "options": [
+              "A queue with fixed size",
+              "A type of queue that enforces strict ordering",
+              "A queue that uses a stack for implementation",
+              "A type of queue where each element has a priority assigned to it"
+            ]
+          },
+          {
+            "numb": 7,
+            "question": "What is a circular queue?",
+            "answer": "A queue that wraps around to the beginning when the end is reached",
+            "options": [
+              "A queue with a fixed size",
+              "A queue that allows elements to be inserted at any position",
+              "A queue that uses a linked list for implementation",
+              "A queue that wraps around to the beginning when the end is reached"
+            ]
+          },
+          {
+            "numb": 8,
+            "question": "What is the difference between a queue and a stack?",
+            "answer": "Queue follows First In First Out (FIFO) order, while stack follows Last In First Out (LIFO) order",
+            "options": [
+              "Queue follows Last In First Out (LIFO) order, while stack follows First In First Out (FIFO) order",
+              "Queue and stack are the same data structure",
+              "Queue follows First In First Out (FIFO) order, while stack follows First In First Out (FIFO) order",
+              "Queue follows Last In First Out (LIFO) order, while stack follows Last In First Out (LIFO) order"
+            ]
+          },
+          {
+            "numb": 9,
+            "question": "Which operation checks if the queue is empty?",
+            "answer": "isEmpty",
+            "options": [
+              "isFull",
+              "isEmpty",
+              "getSize",
+              "enqueue"
+            ]
+          },
+          {
+            "numb": 10,
+            "question": "What is the space complexity of a queue?",
+            "answer": "O(n)",
+            "options": [
+              "O(1)",
+              "O(log n)",
+              "O(n^2)",
+              "O(n)"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Stacks",
+        "content": [
+          {
+            "numb": 1,
+            "question": "What is a stack?",
+            "answer": "A linear data structure where elements are added and removed from the same end, called the top",
+            "options": [
+              "A collection of elements stored in contiguous memory locations",
+              "A linear data structure with fixed size",
+              "A type of array",
+              "A linear data structure where elements are added and removed from the same end, called the top"
+            ]
+          },
+          {
+            "numb": 2,
+            "question": "Which operation adds an element to the top of the stack?",
+            "answer": "Push",
+            "options": [
+              "Pop",
+              "Push",
+              "Enqueue",
+              "Dequeue"
+            ]
+          },
+          {
+            "numb": 3,
+            "question": "Which operation removes an element from the top of the stack?",
+            "answer": "Pop",
+            "options": [
+              "Push",
+              "Pop",
+              "Enqueue",
+              "Dequeue"
+            ]
+          },
+          {
+            "numb": 4,
+            "question": "What is the time complexity of push and pop operations in a stack?",
+            "answer": "O(1)",
+            "options": [
+              "O(n)",
+              "O(log n)",
+              "O(n^2)",
+              "O(1)"
+            ]
+          },
+          {
+            "numb": 5,
+            "question": "Which data structure is often used to implement a stack?",
+            "answer": "Array",
+            "options": [
+              "Linked list",
+              "Queue",
+              "Stack",
+              "Array"
+            ]
+          },
+          {
+            "numb": 6,
+            "question": "What is a stack frame?",
+            "answer": "A memory area used for function calls and local variables",
+            "options": [
+              "A data structure used to store function calls",
+              "A memory area used for function calls and local variables",
+              "A type of stack with fixed size",
+              "A memory area used for storing arrays"
+            ]
+          },
+          {
+            "numb": 7,
+            "question": "What is a postfix expression?",
+            "answer": "An expression where the operator follows the operands",
+            "options": [
+              "An expression where the operator precedes the operands",
+              "An expression with only one operand",
+              "An expression with multiple operators",
+              "An expression with parentheses"
+            ]
+          },
+          {
+            "numb": 8,
+            "question": "What is the difference between a stack and a queue?",
+            "answer": "Stack follows Last In First Out (LIFO) order, while queue follows First In First Out (FIFO) order",
+            "options": [
+              "Stack follows First In First Out (FIFO) order, while queue follows Last In First Out (LIFO) order",
+              "Stack and queue are the same data structure",
+              "Stack follows Last In First Out (LIFO) order, while queue follows Last In First Out (LIFO) order",
+              "Stack follows First In First Out (FIFO) order, while queue follows First In First Out (FIFO) order"
+            ]
+          },
+          {
+            "numb": 9,
+            "question": "What is a stack overflow?",
+            "answer": "A condition where the stack size exceeds its maximum limit",
+            "options": [
+              "A condition where the stack is empty",
+              "A condition where the stack size exceeds its maximum limit",
+              "A condition where the stack is full",
+              "A condition where the stack contains duplicate elements"
+            ]
+          },
+          {
+            "numb": 10,
+            "question": "What is the space complexity of a stack?",
+            "answer": "O(n)",
+            "options": [
+              "O(1)",
+              "O(log n)",
+              "O(n^2)",
+              "O(n)"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Linked Lists",
+        "content": [
+          {
+            "numb": 1,
+            "question": "What is a linked list?",
+            "answer": "A linear data structure where elements are stored in nodes, each pointing to the next node in the sequence",
+            "options": [
+              "A collection of elements stored in contiguous memory locations",
+              "A linear data structure with fixed size",
+              "A type of array",
+              "A linear data structure where elements are stored in nodes, each pointing to the next node in the sequence"
+            ]
+          },
+          {
+            "numb": 2,
+            "question": "What is the difference between singly linked list and doubly linked list?",
+            "answer": "Singly linked list has each node pointing to the next node, while doubly linked list has each node pointing to both the next and previous nodes",
+            "options": [
+              "Singly linked list allows traversal in both directions, while doubly linked list allows traversal in only one direction",
+              "Singly linked list has each node pointing to the next node, while doubly linked list has each node pointing to both the next and previous nodes",
+              "Singly linked list allows insertion and deletion at both ends, while doubly linked list allows insertion and deletion only at the end",
+              "Singly linked list has fixed size, while doubly linked list can dynamically resize"
+            ]
+          },
+          {
+            "numb": 3,
+            "question": "What is the time complexity of accessing an element in a linked list?",
+            "answer": "O(n)",
+            "options": [
+              "O(1)",
+              "O(log n)",
+              "O(n^2)",
+              "O(n)"
+            ]
+          },
+          {
+            "numb": 4,
+            "question": "Which operation adds an element at the beginning of a linked list?",
+            "answer": "Insertion at the head",
+            "options": [
+              "Insertion at the tail",
+              "Deletion at the head",
+              "Deletion at the tail",
+              "Insertion at the head"
+            ]
+          },
+          {
+            "numb": 5,
+            "question": "What is a circular linked list?",
+            "answer": "A linked list where the last node points back to the first node",
+            "options": [
+              "A linked list with fixed size",
+              "A linked list where each node points to the next node",
+              "A linked list where the last node points back to the first node",
+              "A linked list where each node points to the previous node"
+            ]
+          },
+          {
+            "numb": 6,
+            "question": "What is the difference between a linked list and an array?",
+            "answer": "Linked list allows dynamic resizing and efficient insertion/deletion, while arrays have fixed size and less efficient insertion/deletion",
+            "options": [
+              "Linked list allows dynamic resizing and efficient insertion/deletion, while arrays have fixed size and less efficient insertion/deletion",
+              "Linked list is stored in contiguous memory locations, while arrays are not",
+              "Linked list has constant time access to any element, while arrays have linear time access",
+              "Linked list has fixed size, while arrays can resize dynamically"
+            ]
+          },
+          {
+            "numb": 7,
+            "question": "What is a doubly circular linked list?",
+            "answer": "A linked list where the last node points to the first node and the first node points to the last node",
+            "options": [
+              "A linked list with fixed size",
+              "A linked list where each node points to the next node and the previous node",
+              "A linked list where the last node points to the first node",
+              "A linked list where the last node points to the first node and the first node points to the last node"
+            ]
+          },
+          {
+            "numb": 8,
+            "question": "What is the space complexity of a linked list?",
+            "answer": "O(n)",
+            "options": [
+              "O(1)",
+              "O(log n)",
+              "O(n^2)",
+              "O(n)"
+            ]
+          },
+          {
+            "numb": 9,
+            "question": "Which operation removes an element from the end of a linked list?",
+            "answer": "Deletion at the tail",
+            "options": [
+              "Insertion at the head",
+              "Deletion at the head",
+              "Insertion at the tail",
+              "Deletion at the tail"
+            ]
+          },
+          {
+            "numb": 10,
+            "question": "What is a linked list node?",
+            "answer": "A data structure containing the data and a reference to the next node",
+            "options": [
+              "A pointer to the linked list",
+              "A data structure containing the data and a reference to the next node",
+              "A linked list containing only one node",
+              "A reference to the data in the linked list"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Sorting Algorithms",
+        "content": [
+          {
+            "numb": 1,
+            "question": "What is a sorting algorithm?",
+            "answer": "An algorithm that arranges elements in a specific order, such as ascending or descending",
+            "options": [
+              "An algorithm that searches for elements in a list",
+              "An algorithm that arranges elements in a specific order, such as ascending or descending",
+              "An algorithm that adds elements to a data structure",
+              "An algorithm that removes elements from a data structure"
+            ]
+          },
+          {
+            "numb": 2,
+            "question": "What is the time complexity of the bubble sort algorithm?",
+            "answer": "O(n^2)",
+            "options": [
+              "O(n)",
+              "O(n log n)",
+              "O(n^2)",
+              "O(log n)"
+            ]
+          },
+          {
+            "numb": 3,
+            "question": "Which sorting algorithm is known for its simplicity but poor performance compared to other algorithms?",
+            "answer": "Bubble sort",
+            "options": [
+              "Merge sort",
+              "Quick sort",
+              "Bubble sort",
+              "Insertion sort"
+            ]
+          },
+          {
+            "numb": 4,
+            "question": "What is the best-case time complexity of the quick sort algorithm?",
+            "answer": "O(n log n)",
+            "options": [
+              "O(n)",
+              "O(n^2)",
+              "O(log n)",
+              "O(n log n)"
+            ]
+          },
+          {
+            "numb": 5,
+            "question": "Which sorting algorithm is based on the divide and conquer strategy?",
+            "answer": "Merge sort",
+            "options": [
+              "Bubble sort",
+              "Insertion sort",
+              "Selection sort",
+              "Merge sort"
+            ]
+          },
+          {
+            "numb": 6,
+            "question": "What is a stable sorting algorithm?",
+            "answer": "An algorithm that preserves the relative order of equal elements",
+            "options": [
+              "An algorithm that sorts elements in descending order",
+              "An algorithm that has a stable time complexity",
+              "An algorithm that preserves the relative order of equal elements",
+              "An algorithm that sorts elements in random order"
+            ]
+          },
+          {
+            "numb": 7,
+            "question": "What is the space complexity of the merge sort algorithm?",
+            "answer": "O(n)",
+            "options": [
+              "O(1)",
+              "O(log n)",
+              "O(n^2)",
+              "O(n)"
+            ]
+          },
+          {
+            "numb": 8,
+            "question": "Which sorting algorithm is known for its efficiency and is commonly used for large datasets?",
+            "answer": "Merge sort",
+            "options": [
+              "Bubble sort",
+              "Insertion sort",
+              "Selection sort",
+              "Merge sort"
+            ]
+          },
+          {
+            "numb": 9,
+            "question": "What is the time complexity of the insertion sort algorithm?",
+            "answer": "O(n^2)",
+            "options": [
+              "O(n)",
+              "O(n log n)",
+              "O(n^2)",
+              "O(log n)"
+            ]
+          },
+          {
+            "numb": 10,
+            "question": "Which sorting algorithm is suitable for sorting small arrays or nearly sorted arrays efficiently?",
+            "answer": "Insertion sort",
+            "options": [
+              "Bubble sort",
+              "Selection sort",
+              "Merge sort",
+              "Insertion sort"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Searching Algorithms",
+        "content": [
+          {
+            "numb": 1,
+            "question": "What is a searching algorithm?",
+            "answer": "An algorithm that finds the location of a target value within a data structure",
+            "options": [
+              "An algorithm that sorts elements in a specific order",
+              "An algorithm that finds the location of a target value within a data structure",
+              "An algorithm that adds elements to a data structure",
+              "An algorithm that removes elements from a data structure"
+            ]
+          },
+          {
+            "numb": 2,
+            "question": "What is the time complexity of linear search?",
+            "answer": "O(n)",
+            "options": [
+              "O(1)",
+              "O(n log n)",
+              "O(n^2)",
+              "O(n)"
+            ]
+          },
+          {
+            "numb": 3,
+            "question": "Which searching algorithm requires the array to be sorted?",
+            "answer": "Binary search",
+            "options": [
+              "Linear search",
+              "Binary search",
+              "Interpolation search",
+              "Depth-first search"
+            ]
+          },
+          {
+            "numb": 4,
+            "question": "What is the worst-case time complexity of binary search?",
+            "answer": "O(log n)",
+            "options": [
+              "O(n)",
+              "O(n^2)",
+              "O(log n)",
+              "O(1)"
+            ]
+          },
+          {
+            "numb": 5,
+            "question": "Which searching algorithm divides the array into two subarrays and repeatedly narrows down the search range?",
+            "answer": "Binary search",
+            "options": [
+              "Linear search",
+              "Binary search",
+              "Interpolation search",
+              "Depth-first search"
+            ]
+          },
+          {
+            "numb": 6,
+            "question": "What is the time complexity of interpolation search on average?",
+            "answer": "O(log log n)",
+            "options": [
+              "O(log n)",
+              "O(n)",
+              "O(n log n)",
+              "O(log log n)"
+            ]
+          },
+          {
+            "numb": 7,
+            "question": "What is the primary advantage of binary search over linear search?",
+            "answer": "Binary search has a time complexity of O(log n) compared to O(n) for linear search",
+            "options": [
+              "Binary search is easier to implement",
+              "Binary search requires less memory",
+              "Binary search has a time complexity of O(log n) compared to O(n) for linear search",
+              "Binary search is more flexible"
+            ]
+          },
+          {
+            "numb": 8,
+            "question": "Which searching algorithm is commonly used for searching in databases and phonebooks?",
+            "answer": "Interpolation search",
+            "options": [
+              "Linear search",
+              "Binary search",
+              "Interpolation search",
+              "Depth-first search"
+            ]
+          },
+          {
+            "numb": 9,
+            "question": "What is the worst-case time complexity of linear search?",
+            "answer": "O(n)",
+            "options": [
+              "O(1)",
+              "O(log n)",
+              "O(n)",
+              "O(n^2)"
+            ]
+          },
+          {
+            "numb": 10,
+            "question": "Which searching algorithm is suitable for unsorted arrays and small datasets?",
+            "answer": "Linear search",
+            "options": [
+              "Linear search",
+              "Binary search",
+              "Interpolation search",
+              "Depth-first search"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Dynamic Programming",
+        "content": [
+          {
+            "numb": 1,
+            "question": "What is dynamic programming?",
+            "answer": "A method for solving complex problems by breaking them down into simpler subproblems and solving each subproblem only once",
+            "options": [
+              "A programming technique for writing code dynamically",
+              "A method for solving complex problems by breaking them down into simpler subproblems and solving each subproblem only once",
+              "A technique for generating random numbers",
+              "A method for solving mathematical equations"
+            ]
+          },
+          {
+            "numb": 2,
+            "question": "What is the key idea behind dynamic programming?",
+            "answer": "Memoization and reusing solutions to subproblems",
+            "options": [
+              "Using recursion to solve problems",
+              "Breaking problems into smaller parts",
+              "Memoization and reusing solutions to subproblems",
+              "Iterating through all possible solutions"
+            ]
+          },
+          {
+            "numb": 3,
+            "question": "What is memoization?",
+            "answer": "Storing the results of expensive function calls and returning the cached result when the same inputs occur again",
+            "options": [
+              "Breaking problems into smaller parts",
+              "Storing the results of expensive function calls and returning the cached result when the same inputs occur again",
+              "Iterating through all possible solutions",
+              "Using recursion to solve problems"
+            ]
+          },
+          {
+            "numb": 4,
+            "question": "Which type of problems are commonly solved using dynamic programming?",
+            "answer": "Optimization problems",
+            "options": [
+              "Graph traversal problems",
+              "String manipulation problems",
+              "Optimization problems",
+              "Sorting problems"
+            ]
+          },
+          {
+            "numb": 5,
+            "question": "What is the time complexity of dynamic programming solutions?",
+            "answer": "Depends on the specific problem and solution approach",
+            "options": [
+              "O(n)",
+              "O(log n)",
+              "Depends on the specific problem and solution approach",
+              "O(n^2)"
+            ]
+          },
+          {
+            "numb": 6,
+            "question": "What is the difference between dynamic programming and greedy algorithms?",
+            "answer": "Dynamic programming considers all possible solutions and selects the optimal one, while greedy algorithms make decisions based on the current best option",
+            "options": [
+              "Dynamic programming always yields the optimal solution, while greedy algorithms do not",
+              "Dynamic programming is faster than greedy algorithms",
+              "Dynamic programming considers all possible solutions and selects the optimal one, while greedy algorithms make decisions based on the current best option",
+              "Greedy algorithms are more memory-efficient than dynamic programming"
+            ]
+          },
+          {
+            "numb": 7,
+            "question": "What is the principle of optimality in dynamic programming?",
+            "answer": "An optimal solution to a problem contains optimal solutions to its subproblems",
+            "options": [
+              "The solution to a problem can be constructed from optimal solutions to its subproblems",
+              "The solution to a problem must involve recursion",
+              "The solution to a problem can be constructed from suboptimal solutions to its subproblems",
+              "The optimal solution to a problem may not contain optimal solutions to its subproblems"
+            ]
+          },
+          {
+            "numb": 8,
+            "question": "Which dynamic programming technique solves a problem by dividing it into smaller subproblems, solving each subproblem only once, and storing the solutions to subproblems in a table?",
+            "answer": "Top-down approach (Memoization)",
+            "options": [
+              "Top-down approach (Memoization)",
+              "Bottom-up approach (Tabulation)",
+              "Greedy approach",
+              "Divide and conquer approach"
+            ]
+          },
+          {
+            "numb": 9,
+            "question": "What is the main advantage of using dynamic programming?",
+            "answer": "Efficiently solves problems by avoiding redundant computations",
+            "options": [
+              "Solves problems faster than other techniques",
+              "Requires less memory than other techniques",
+              "Always guarantees the optimal solution",
+              "Efficiently solves problems by avoiding redundant computations"
+            ]
+          },
+          {
+            "numb": 10,
+            "question": "What is a common example of a problem solved using dynamic programming?",
+            "answer": "The knapsack problem",
+            "options": [
+              "The traveling salesman problem",
+              "The longest common subsequence problem",
+              "The minimum spanning tree problem",
+              "The knapsack problem"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Graph Algorithms",
+        "content": [
+          {
+            "numb": 1,
+            "question": "What is a graph?",
+            "answer": "A mathematical structure consisting of nodes (vertices) and edges that connect pairs of nodes",
+            "options": [
+              "A data structure for storing elements in a linear sequence",
+              "A mathematical structure consisting of nodes (vertices) and edges that connect pairs of nodes",
+              "A collection of algorithms for sorting elements",
+              "A way to represent complex numbers"
+            ]
+          },
+          {
+            "numb": 2,
+            "question": "What is a vertex in a graph?",
+            "answer": "A node or point in a graph",
+            "options": [
+              "A line connecting two nodes",
+              "A node or point in a graph",
+              "A weight assigned to an edge",
+              "A direction of traversal between two nodes"
+            ]
+          },
+          {
+            "numb": 3,
+            "question": "What is an edge in a graph?",
+            "answer": "A connection between two vertices in a graph",
+            "options": [
+              "A node or point in a graph",
+              "A line connecting two nodes",
+              "A direction of traversal between two nodes",
+              "A weight assigned to a vertex"
+            ]
+          },
+          {
+            "numb": 4,
+            "question": "Which type of graph has edges with a direction associated with them?",
+            "answer": "Directed graph (Digraph)",
+            "options": [
+              "Undirected graph",
+              "Directed graph (Digraph)",
+              "Weighted graph",
+              "Cyclic graph"
+            ]
+          },
+          {
+            "numb": 5,
+            "question": "What is the adjacency matrix of a graph?",
+            "answer": "A square matrix used to represent a finite graph",
+            "options": [
+              "A matrix used to represent the weights of edges in a graph",
+              "A matrix used to represent the direction of edges in a graph",
+              "A square matrix used to represent a finite graph",
+              "A matrix used to represent the connectivity of vertices in a graph"
+            ]
+          },
+          {
+            "numb": 6,
+            "question": "What is a spanning tree of a graph?",
+            "answer": "A subgraph that is a tree and connects all the vertices together without forming any cycles",
+            "options": [
+              "A tree structure used to represent hierarchical data",
+              "A subgraph that is a tree and connects all the vertices together without forming any cycles",
+              "A tree traversal algorithm",
+              "A graph traversal algorithm"
+            ]
+          },
+          {
+            "numb": 7,
+            "question": "What is Dijkstra's algorithm used for?",
+            "answer": "Finding the shortest path between nodes in a weighted graph",
+            "options": [
+              "Finding the maximum flow in a network",
+              "Finding the shortest cycle in a graph",
+              "Finding the minimum spanning tree of a graph",
+              "Finding the shortest path between nodes in a weighted graph"
+            ]
+          },
+          {
+            "numb": 8,
+            "question": "What is a topological sort?",
+            "answer": "An ordering of the vertices of a directed graph such that for every directed edge uv from vertex u to vertex v, u comes before v in the ordering",
+            "options": [
+              "A sorting algorithm for arrays",
+              "An ordering of the vertices of an undirected graph",
+              "An ordering of the edges of a graph",
+              "An ordering of the vertices of a directed graph such that for every directed edge uv from vertex u to vertex v, u comes before v in the ordering"
+            ]
+          },
+          {
+            "numb": 9,
+            "question": "What is a minimum spanning tree?",
+            "answer": "A spanning tree of a connected, undirected graph that has the smallest possible sum of edge weights",
+            "options": [
+              "The tree with the minimum number of edges",
+              "A tree with the maximum weight",
+              "A tree with the minimum height",
+              "A spanning tree of a connected, undirected graph that has the smallest possible sum of edge weights"
+            ]
+          },
+          {
+            "numb": 10,
+            "question": "What is depth-first search (DFS) used for?",
+            "answer": "Traversal of graphs and finding connected components",
+            "options": [
+              "Finding the shortest path between two nodes",
+              "Finding the maximum flow in a network",
+              "Traversal of graphs and finding connected components",
+              "Finding the minimum spanning tree of a graph"
+            ]
+          }
+        ]
+      }
+,
+{
+  "title": "Network Protocols",
+  "content": [
+    {
+      "numb": 1,
+      "question": "What is a network protocol?",
+      "answer": "A set of rules and conventions for communication between devices in a network",
+      "options": [
+        "A physical device used for network communication",
+        "A programming language for network applications",
+        "A set of rules and conventions for communication between devices in a network",
+        "A type of encryption algorithm"
+      ]
+    },
+    {
+      "numb": 2,
+      "question": "What is the purpose of the TCP/IP protocol suite?",
+      "answer": "To enable communication between devices over a network",
+      "options": [
+        "To encrypt data transmitted over a network",
+        "To compress data transmitted over a network",
+        "To enable communication between devices over a network",
+        "To secure network connections"
+      ]
+    },
+    {
+      "numb": 3,
+      "question": "What is the role of the IP protocol?",
+      "answer": "To provide a unique address for each device on a network and facilitate routing of packets",
+      "options": [
+        "To establish a reliable connection between devices",
+        "To encrypt data transmitted over a network",
+        "To compress data transmitted over a network",
+        "To provide a unique address for each device on a network and facilitate routing of packets"
+      ]
+    },
+    {
+      "numb": 4,
+      "question": "Which protocol is responsible for ensuring reliable and ordered delivery of data packets?",
+      "answer": "TCP (Transmission Control Protocol)",
+      "options": [
+        "UDP (User Datagram Protocol)",
+        "IP (Internet Protocol)",
+        "HTTP (Hypertext Transfer Protocol)",
+        "TCP (Transmission Control Protocol)"
+      ]
+    },
+    {
+      "numb": 5,
+      "question": "What is the role of the DNS protocol?",
+      "answer": "To translate domain names to IP addresses",
+      "options": [
+        "To encrypt data transmitted over a network",
+        "To compress data transmitted over a network",
+        "To translate domain names to IP addresses",
+        "To establish a secure connection between devices"
+      ]
+    },
+    {
+      "numb": 6,
+      "question": "What is the HTTP protocol used for?",
+      "answer": "To transfer hypertext documents on the World Wide Web",
+      "options": [
+        "To establish a secure connection between devices",
+        "To translate domain names to IP addresses",
+        "To transfer hypertext documents on the World Wide Web",
+        "To provide a unique address for each device on a network and facilitate routing of packets"
+      ]
+    },
+    {
+      "numb": 7,
+      "question": "What is the purpose of the FTP protocol?",
+      "answer": "To transfer files between a client and a server on a network",
+      "options": [
+        "To establish a secure connection between devices",
+        "To translate domain names to IP addresses",
+        "To transfer files between a client and a server on a network",
+        "To provide a unique address for each device on a network and facilitate routing of packets"
+      ]
+    },
+    {
+      "numb": 8,
+      "question": "Which protocol is commonly used for sending and receiving email?",
+      "answer": "SMTP (Simple Mail Transfer Protocol)",
+      "options": [
+        "HTTP (Hypertext Transfer Protocol)",
+        "FTP (File Transfer Protocol)",
+        "TCP (Transmission Control Protocol)",
+        "SMTP (Simple Mail Transfer Protocol)"
+      ]
+    },
+    {
+      "numb": 9,
+      "question": "What is the purpose of the DHCP protocol?",
+      "answer": "To automatically assign IP addresses to devices on a network",
+      "options": [
+        "To translate domain names to IP addresses",
+        "To establish a secure connection between devices",
+        "To automatically assign IP addresses to devices on a network",
+        "To transfer hypertext documents on the World Wide Web"
+      ]
+    },
+    {
+      "numb": 10,
+      "question": "Which protocol is used for secure communication over a computer network?",
+      "answer": "SSL/TLS (Secure Sockets Layer/Transport Layer Security)",
+      "options": [
+        "HTTP (Hypertext Transfer Protocol)",
+        "FTP (File Transfer Protocol)",
+        "SMTP (Simple Mail Transfer Protocol)",
+        "SSL/TLS (Secure Sockets Layer/Transport Layer Security)"
+      ]
+    }
+  ]
+}
+,
+{
+  "title": "TCP/IP",
+  "content": [
+    {
+      "numb": 1,
+      "question": "What is TCP/IP?",
+      "answer": "A suite of communication protocols used to interconnect network devices on the internet",
+      "options": [
+        "A programming language",
+        "A suite of communication protocols used to interconnect network devices on the internet",
+        "A type of encryption algorithm",
+        "A hardware component"
+      ]
+    },
+    {
+      "numb": 2,
+      "question": "What are the two main protocols in the TCP/IP suite?",
+      "answer": "TCP (Transmission Control Protocol) and IP (Internet Protocol)",
+      "options": [
+        "HTTP (Hypertext Transfer Protocol) and HTTPS (Hypertext Transfer Protocol Secure)",
+        "FTP (File Transfer Protocol) and SMTP (Simple Mail Transfer Protocol)",
+        "TCP (Transmission Control Protocol) and IP (Internet Protocol)",
+        "DNS (Domain Name System) and DHCP (Dynamic Host Configuration Protocol)"
+      ]
+    },
+    {
+      "numb": 3,
+      "question": "What is the role of the TCP protocol?",
+      "answer": "To provide reliable, ordered, and error-checked delivery of a stream of bytes between applications running on devices in a network",
+      "options": [
+        "To provide a unique address for each device on a network",
+        "To translate domain names to IP addresses",
+        "To provide reliable, ordered, and error-checked delivery of a stream of bytes between applications running on devices in a network",
+        "To transfer hypertext documents on the World Wide Web"
+      ]
+    },
+    {
+      "numb": 4,
+      "question": "What is the role of the IP protocol?",
+      "answer": "To provide a unique address for each device on a network and facilitate routing of packets",
+      "options": [
+        "To establish a reliable connection between devices",
+        "To translate domain names to IP addresses",
+        "To provide a unique address for each device on a network and facilitate routing of packets",
+        "To transfer hypertext documents on the World Wide Web"
+      ]
+    },
+    {
+      "numb": 5,
+      "question": "What is the purpose of the UDP protocol?",
+      "answer": "To provide a connectionless communication service that offers best-effort delivery of datagrams between devices",
+      "options": [
+        "To establish a reliable connection between devices",
+        "To provide a unique address for each device on a network",
+        "To provide a connectionless communication service that offers best-effort delivery of datagrams between devices",
+        "To transfer hypertext documents on the World Wide Web"
+      ]
+    },
+    {
+      "numb": 6,
+      "question": "What is the difference between TCP and UDP?",
+      "answer": "TCP provides reliable, ordered, and error-checked delivery of a stream of bytes, while UDP provides connectionless communication with no guarantee of delivery",
+      "options": [
+        "TCP provides connectionless communication, while UDP provides reliable delivery",
+        "TCP provides reliable, ordered, and error-checked delivery of a stream of bytes, while UDP provides connectionless communication with no guarantee of delivery",
+        "TCP is slower than UDP",
+        "UDP is more secure than TCP"
+      ]
+    },
+    {
+      "numb": 7,
+      "question": "What is the TCP three-way handshake?",
+      "answer": "A process used to establish a TCP connection between two devices, consisting of three steps: SYN, SYN-ACK, and ACK",
+      "options": [
+        "A process used to encrypt data transmitted over a network",
+        "A process used to establish a UDP connection between two devices",
+        "A process used to translate domain names to IP addresses",
+        "A process used to establish a TCP connection between two devices, consisting of three steps: SYN, SYN-ACK, and ACK"
+      ]
+    },
+    {
+      "numb": 8,
+      "question": "What is IPv4?",
+      "answer": "The fourth version of the Internet Protocol, which uses 32-bit addresses and is the most widely used version of IP",
+      "options": [
+        "The first version of the Internet Protocol",
+        "The third version of the Internet Protocol",
+        "The fourth version of the Internet Protocol, which uses 32-bit addresses and is the most widely used version of IP",
+        "The latest version of the Internet Protocol"
+      ]
+    },
+    {
+      "numb": 9,
+      "question": "What is IPv6?",
+      "answer": "The sixth version of the Internet Protocol, which uses 128-bit addresses and was developed to address the exhaustion of IPv4 addresses",
+      "options": [
+        "The fourth version of the Internet Protocol",
+        "The fifth version of the Internet Protocol",
+        "The sixth version of the Internet Protocol, which uses 128-bit addresses and was developed to address the exhaustion of IPv4 addresses",
+        "The latest version of the Internet Protocol"
+      ]
+    },
+    {
+      "numb": 10,
+      "question": "What is the purpose of ARP (Address Resolution Protocol)?",
+      "answer": "To map IP addresses to MAC addresses",
+      "options": [
+        "To establish a reliable connection between devices",
+        "To translate domain names to IP addresses",
+        "To map IP addresses to MAC addresses",
+        "To transfer hypertext documents on the World Wide Web"
+      ]
+    }
+  ]
+}
+,
+{
+  "title": "DNS",
+  "content": [
+    {
+      "numb": 1,
+      "question": "What is DNS?",
+      "answer": "The Domain Name System (DNS) is a hierarchical and distributed naming system for computers, services, or any resource connected to the Internet or a private network",
+      "options": [
+        "A protocol for secure communication over a network",
+        "A programming language for web development",
+        "The Domain Name System (DNS) is a hierarchical and distributed naming system for computers, services, or any resource connected to the Internet or a private network",
+        "A hardware device used for data transmission"
+      ]
+    },
+    {
+      "numb": 2,
+      "question": "What is the main function of DNS?",
+      "answer": "To translate domain names into IP addresses and vice versa",
+      "options": [
+        "To encrypt data transmitted over a network",
+        "To compress data transmitted over a network",
+        "To translate domain names into IP addresses and vice versa",
+        "To establish a secure connection between devices"
+      ]
+    },
+    {
+      "numb": 3,
+      "question": "What is a DNS resolver?",
+      "answer": "A type of DNS record",
+      "options": [
+        "A type of DNS record",
+        "A protocol for secure communication over a network",
+        "A hardware device used for data transmission",
+        "A program or software component responsible for querying the DNS to resolve domain names to IP addresses or vice versa"
+      ]
+    },
+    {
+      "numb": 4,
+      "question": "What is a DNS server?",
+      "answer": "A computer server that contains a database of public IP addresses and their associated hostnames, and it responds to DNS queries",
+      "options": [
+        "A type of DNS record",
+        "A hardware device used for data transmission",
+        "A computer server that contains a database of public IP addresses and their associated hostnames, and it responds to DNS queries",
+        "A program or software component responsible for querying the DNS to resolve domain names to IP addresses or vice versa"
+      ]
+    },
+    {
+      "numb": 5,
+      "question": "What is a DNS zone?",
+      "answer": "A DNS zone is a portion of the DNS namespace that is managed by a specific organization or administrator",
+      "options": [
+        "A type of DNS record",
+        "A hardware device used for data transmission",
+        "A portion of the DNS namespace that is managed by a specific organization or administrator",
+        "A program or software component responsible for querying the DNS to resolve domain names to IP addresses or vice versa"
+      ]
+    },
+    {
+      "numb": 6,
+      "question": "What is the purpose of a DNS cache?",
+      "answer": "To temporarily store DNS query results to reduce the time it takes to resolve subsequent queries for the same domain names",
+      "options": [
+        "To encrypt data transmitted over a network",
+        "To compress data transmitted over a network",
+        "To temporarily store DNS query results to reduce the time it takes to resolve subsequent queries for the same domain names",
+        "To establish a secure connection between devices"
+      ]
+    },
+    {
+      "numb": 7,
+      "question": "What is a DNS record?",
+      "answer": "A data structure containing information about a domain name and its associated IP addresses, mail servers, and other resources",
+      "options": [
+        "A protocol for secure communication over a network",
+        "A programming language for web development",
+        "A data structure containing information about a domain name and its associated IP addresses, mail servers, and other resources",
+        "A hardware device used for data transmission"
+      ]
+    },
+    {
+      "numb": 8,
+      "question": "What is the difference between authoritative DNS server and recursive DNS server?",
+      "answer": "An authoritative DNS server holds the actual DNS records for a domain, while a recursive DNS server performs DNS queries on behalf of clients by contacting other DNS servers to resolve domain names",
+      "options": [
+        "An authoritative DNS server is used for caching DNS records, while a recursive DNS server holds the actual DNS records for a domain",
+        "An authoritative DNS server performs DNS queries on behalf of clients, while a recursive DNS server holds the actual DNS records for a domain",
+        "An authoritative DNS server holds the actual DNS records for a domain, while a recursive DNS server performs DNS queries on behalf of clients by contacting other DNS servers to resolve domain names",
+        "An authoritative DNS server is responsible for translating domain names to IP addresses, while a recursive DNS server is responsible for managing DNS zones"
+      ]
+    },
+    {
+      "numb": 9,
+      "question": "What is DNSSEC?",
+      "answer": "A suite of security protocols used to add cryptographic integrity and authentication to DNS responses, helping prevent DNS spoofing and cache poisoning attacks",
+      "options": [
+        "A protocol for secure communication over a network",
+        "A programming language for web development",
+        "A suite of security protocols used to add cryptographic integrity and authentication to DNS responses, helping prevent DNS spoofing and cache poisoning attacks",
+        "A hardware device used for data transmission"
+      ]
+    },
+    {
+      "numb": 10,
+      "question": "What is the TTL (Time to Live) value in DNS?",
+      "answer": "The amount of time it takes for a DNS query to be resolved",
+      "options": [
+        "The amount of time it takes for a DNS query to be resolved",
+        "The maximum size of a DNS message",
+        "The amount of time for which a DNS record can be cached by DNS resolvers and other DNS servers before it expires and needs to be refreshed",
+        "The security level of a DNS server"
+      ]
+    }
+  ]
+}
+,{
+  "title": "HTTP",
+  "content": [
+    {
+      "numb": 1,
+      "question": "What is HTTP?",
+      "answer": "An application protocol for distributed, collaborative, hypermedia information systems",
+      "options": [
+        "A programming language",
+        "A hardware device used for data transmission",
+        "An application protocol for distributed, collaborative, hypermedia information systems",
+        "A type of encryption algorithm"
+      ]
+    },
+    {
+      "numb": 2,
+      "question": "What is the main function of HTTP?",
+      "answer": "To transfer hypertext documents between clients and servers",
+      "options": [
+        "To establish a secure connection between devices",
+        "To translate domain names to IP addresses",
+        "To transfer hypertext documents between clients and servers",
+        "To provide reliable, ordered, and error-checked delivery of a stream of bytes between applications running on devices in a network"
+      ]
+    },
+    {
+      "numb": 3,
+      "question": "What is a URL?",
+      "answer": "A web address used to specify the location of a resource on the internet",
+      "options": [
+        "A type of HTTP request",
+        "A programming language for web development",
+        "A web address used to specify the location of a resource on the internet",
+        "A type of encryption algorithm"
+      ]
+    },
+    {
+      "numb": 4,
+      "question": "What is an HTTP request?",
+      "answer": "A type of HTTP response",
+      "options": [
+        "A type of HTTP response",
+        "A message sent by a server to a client to send a resource",
+        "A message sent by a client to a server to request a resource",
+        "A type of encryption algorithm"
+      ]
+    },
+    {
+      "numb": 5,
+      "question": "What is an HTTP response?",
+      "answer": "A message sent by a server to a client in response to an HTTP request, containing the requested resource or an error message",
+      "options": [
+        "A type of HTTP request",
+        "A message sent by a client to a server to request a resource",
+        "A message sent by a server to a client in response to an HTTP request, containing the requested resource or an error message",
+        "A type of encryption algorithm"
+      ]
+    },
+    {
+      "numb": 6,
+      "question": "What is the difference between HTTP and HTTPS?",
+      "answer": "HTTP is insecure and transmits data in plain text, while HTTPS encrypts data using SSL/TLS to provide secure communication over the internet",
+      "options": [
+        "HTTP is faster than HTTPS",
+        "HTTP uses port 443, while HTTPS uses port 80",
+        "HTTP is insecure and transmits data in plain text, while HTTPS encrypts data using SSL/TLS to provide secure communication over the internet",
+        "HTTP and HTTPS are the same protocol with different names"
+      ]
+    },
+    {
+      "numb": 7,
+      "question": "What are the main HTTP methods?",
+      "answer": "GET, POST, PUT, DELETE, HEAD, OPTIONS, and PATCH",
+      "options": [
+        "GET, SET, UPDATE, DELETE",
+        "CREATE, READ, UPDATE, DELETE",
+        "GET, POST, PUT, DELETE, HEAD, OPTIONS, and PATCH",
+        "SEND, RECEIVE, UPDATE, DELETE"
+      ]
+    },
+    {
+      "numb": 8,
+      "question": "What is HTTP caching?",
+      "answer": "The process of storing copies of resources locally to reduce server load and improve performance",
+      "options": [
+        "Encrypting HTTP requests and responses",
+        "Storing cookies on the client side",
+        "The process of storing copies of resources locally to reduce server load and improve performance",
+        "Using HTTP headers to define cache control policies"
+      ]
+    },
+    {
+      "numb": 9,
+      "question": "What is an HTTP cookie?",
+      "answer": "A small piece of data sent from a website and stored on the user's computer by the user's web browser while the user is browsing",
+      "options": [
+        "A type of HTTP request",
+        "A programming language for web development",
+        "A small piece of data sent from a website and stored on the user's computer by the user's web browser while the user is browsing",
+        "A type of encryption algorithm"
+      ]
+    },
+    {
+      "numb": 10,
+      "question": "What is HTTP/2?",
+      "answer": "A major revision of the HTTP network protocol used by the World Wide Web It introduces several new features aimed at improving performance and security",
+      "options": [
+        "A version of HTTP designed for secure communication",
+        "A version of HTTP that uses UDP instead of TCP",
+        "A major revision of the HTTP network protocol used by the World Wide Web It introduces several new features aimed at improving performance and security",
+        "A protocol for encrypting HTTP requests and responses"
+      ]
+    }
+  ]
+}
+,{
+  "title": "Processes and Threads",
+  "content": [
+    {
+      "numb": 1,
+      "question": "What is a process?",
+      "answer": "An instance of a program that is being executed by the operating system",
+      "options": [
+        "A type of CPU",
+        "A unit of memory",
+        "An instance of a program that is being executed by the operating system",
+        "A type of file system"
+      ]
+    },
+    {
+      "numb": 2,
+      "question": "What is a thread?",
+      "answer": "The smallest unit of execution within a process, capable of executing code independently",
+      "options": [
+        "A type of CPU",
+        "A unit of memory",
+        "The smallest unit of execution within a process, capable of executing code independently",
+        "A type of file system"
+      ]
+    },
+    {
+      "numb": 3,
+      "question": "What is the difference between a process and a thread?",
+      "answer": "A process has its own memory space, while threads share the memory space of their parent process",
+      "options": [
+        "A process is a type of CPU, while a thread is a unit of memory",
+        "A process has its own memory space, while threads share the memory space of their parent process",
+        "A process can execute multiple threads, while a thread can execute multiple processes",
+        "A process is a single execution path, while a thread is an instance of a program"
+      ]
+    },
+    {
+      "numb": 4,
+      "question": "What is multithreading?",
+      "answer": "The ability of a CPU or CPU core to execute multiple threads concurrently",
+      "options": [
+        "The process of executing multiple processes concurrently",
+        "The process of executing multiple threads sequentially",
+        "The ability of a CPU or CPU core to execute multiple threads concurrently",
+        "The ability of a CPU or CPU core to execute multiple processes concurrently"
+      ]
+    },
+    {
+      "numb": 5,
+      "question": "What are the advantages of multithreading?",
+      "answer": "Improved responsiveness, better resource utilization, and enhanced parallelism",
+      "options": [
+        "Improved security",
+        "Decreased resource utilization",
+        "Improved responsiveness, better resource utilization, and enhanced parallelism",
+        "Increased complexity"
+      ]
+    },
+    {
+      "numb": 6,
+      "question": "What is a context switch?",
+      "answer": "The process of saving the state of a thread or process and restoring the state of another thread or process so that execution can continue seamlessly",
+      "options": [
+        "A type of CPU",
+        "A unit of memory",
+        "The process of saving the state of a thread or process and restoring the state of another thread or process so that execution can continue seamlessly",
+        "A type of file system"
+      ]
+    },
+    {
+      "numb": 7,
+      "question": "What is a thread pool?",
+      "answer": "A collection of pre-initialized threads that are ready to perform tasks, helping reduce the overhead of creating and destroying threads for each task",
+      "options": [
+        "A type of CPU",
+        "A unit of memory",
+        "A collection of pre-initialized threads that are ready to perform tasks, helping reduce the overhead of creating and destroying threads for each task",
+        "A type of file system"
+      ]
+    },
+    {
+      "numb": 8,
+      "question": "What is synchronization?",
+      "answer": "The coordination of multiple threads to ensure that they access shared resources in a safe and orderly manner",
+      "options": [
+        "The process of executing multiple threads sequentially",
+        "The ability of a CPU or CPU core to execute multiple threads concurrently",
+        "The coordination of multiple threads to ensure that they access shared resources in a safe and orderly manner",
+        "The process of executing multiple processes concurrently"
+      ]
+    },
+    {
+      "numb": 9,
+      "question": "What is a deadlock?",
+      "answer": "A situation where two or more threads are unable to proceed because each is waiting for the other to release a resource",
+      "options": [
+        "A situation where a thread is terminated abruptly",
+        "A situation where a thread executes indefinitely",
+        "A situation where two or more threads are unable to proceed because each is waiting for the other to release a resource",
+        "A situation where a thread accesses a shared resource without proper synchronization"
+      ]
+    },
+    {
+      "numb": 10,
+      "question": "What is thread safety?",
+      "answer": "The property of a program or system that ensures that it behaves correctly when multiple threads are executing concurrently",
+      "options": [
+        "The ability of a thread to execute multiple processes concurrently",
+        "The ability of a thread to execute multiple threads concurrently",
+        "The property of a program or system that ensures that it behaves correctly when multiple threads are executing concurrently",
+        "The coordination of multiple threads to ensure that they access shared resources in a safe and orderly manner"
+      ]
+    }
+  ]
+}
+,
+{
+  "title": "Memory Management",
+  "content": [
+    {
+      "numb": 1,
+      "question": "What is memory management?",
+      "answer": "The process of controlling and coordinating computer memory, assigning portions called blocks to various running programs to optimize overall system performance",
+      "options": [
+        "The process of managing hard disk space",
+        "The process of controlling and coordinating computer memory, assigning portions called blocks to various running programs to optimize overall system performance",
+        "The process of managing input/output devices",
+        "The process of managing CPU resources"
+      ]
+    },
+    {
+      "numb": 2,
+      "question": "What are the main goals of memory management?",
+      "answer": "To provide a convenient abstraction for programmers, efficient and fair allocation of memory resources, protection and isolation of processes, and support for virtual memory",
+      "options": [
+        "To maximize CPU utilization",
+        "To minimize CPU utilization",
+        "To provide a convenient abstraction for programmers, efficient and fair allocation of memory resources, protection and isolation of processes, and support for virtual memory",
+        "To prevent memory leaks"
+      ]
+    },
+    {
+      "numb": 3,
+      "question": "What is virtual memory?",
+      "answer": "A memory management technique that provides an illusion to the users of a very large (main) memory",
+      "options": [
+        "A type of secondary storage",
+        "A type of cache memory",
+        "A memory management technique that provides an illusion to the users of a very large (main) memory",
+        "A type of CPU"
+      ]
+    },
+    {
+      "numb": 4,
+      "question": "What is paging?",
+      "answer": "A memory management scheme that eliminates the need for contiguous allocation of physical memory by dividing memory into fixed-size blocks called pages and using a page table to map logical addresses to physical addresses",
+      "options": [
+        "A process of allocating memory blocks of variable sizes",
+        "A process of allocating memory blocks of fixed sizes",
+        "A memory management scheme that eliminates the need for contiguous allocation of physical memory by dividing memory into fixed-size blocks called pages and using a page table to map logical addresses to physical addresses",
+        "A process of managing input/output devices"
+      ]
+    },
+    {
+      "numb": 5,
+      "question": "What is segmentation?",
+      "answer": "A memory management scheme that supports the user view of memory as a collection of variable-sized segments, each with its own logical address space",
+      "options": [
+        "A process of allocating memory blocks of variable sizes",
+        "A process of allocating memory blocks of fixed sizes",
+        "A memory management scheme that supports the user view of memory as a collection of variable-sized segments, each with its own logical address space",
+        "A process of managing input/output devices"
+      ]
+    },
+    {
+      "numb": 6,
+      "question": "What is fragmentation?",
+      "answer": "A phenomenon in memory management where memory space is wasted due to inefficient use of available memory blocks",
+      "options": [
+        "The process of consolidating memory blocks",
+        "The process of efficiently using available memory blocks",
+        "A phenomenon in memory management where memory space is wasted due to inefficient use of available memory blocks",
+        "A process of managing input/output devices"
+      ]
+    },
+    {
+      "numb": 7,
+      "question": "What is internal fragmentation?",
+      "answer": "Occurs when a memory block allocated to a process is larger than the requested memory size, leading to wasted space within the block",
+      "options": [
+        "Fragmentation caused by gaps between memory blocks",
+        "Fragmentation caused by inefficient use of memory blocks",
+        "Occurs when a memory block allocated to a process is larger than the requested memory size, leading to wasted space within the block",
+        "Occurs when memory blocks are scattered throughout memory"
+      ]
+    },
+    {
+      "numb": 8,
+      "question": "What is external fragmentation?",
+      "answer": "Occurs when there is enough total memory space to satisfy a request, but it is not contiguous, leading to inefficient memory utilization",
+      "options": [
+        "Fragmentation caused by gaps between memory blocks",
+        "Fragmentation caused by inefficient use of memory blocks",
+        "Occurs when there is enough total memory space to satisfy a request, but it is not contiguous, leading to inefficient memory utilization",
+        "Occurs when memory blocks are scattered throughout memory"
+      ]
+    },
+    {
+      "numb": 9,
+      "question": "What is compaction?",
+      "answer": "The process of rearranging allocated memory blocks to create larger contiguous free memory blocks",
+      "options": [
+        "The process of dividing memory into fixed-size blocks",
+        "The process of rearranging allocated memory blocks to create larger contiguous free memory blocks",
+        "The process of allocating memory blocks of variable sizes",
+        "The process of managing input/output devices"
+      ]
+    },
+    {
+      "numb": 10,
+      "question": "What is memory paging?",
+      "answer": "The process of dividing memory into fixed-size blocks",
+      "options": [
+        "The process of dividing memory into fixed-size blocks",
+        "The process of allocating memory blocks of variable sizes",
+        "The process of efficiently using available memory blocks",
+        "The process of managing input/output devices"
+      ]
+    }
+  ]
+},
+{
+  "title": "Memory Management",
+  "content": [
+    {
+      "numb": 1,
+      "question": "What is memory management?",
+      "answer": "The process of controlling and coordinating computer memory, assigning portions called blocks to various running programs to optimize overall system performance",
+      "options": [
+        "The process of managing hard disk space",
+        "The process of controlling and coordinating computer memory, assigning portions called blocks to various running programs to optimize overall system performance",
+        "The process of managing input/output devices",
+        "The process of managing CPU resources"
+      ]
+    },
+    {
+      "numb": 2,
+      "question": "What are the main goals of memory management?",
+      "answer": "To provide a convenient abstraction for programmers, efficient and fair allocation of memory resources, protection and isolation of processes, and support for virtual memory",
+      "options": [
+        "To maximize CPU utilization",
+        "To minimize CPU utilization",
+        "To provide a convenient abstraction for programmers, efficient and fair allocation of memory resources, protection and isolation of processes, and support for virtual memory",
+        "To prevent memory leaks"
+      ]
+    },
+    {
+      "numb": 3,
+      "question": "What is virtual memory?",
+      "answer": "A memory management technique that provides an illusion to the users of a very large (main) memory",
+      "options": [
+        "A type of secondary storage",
+        "A type of cache memory",
+        "A memory management technique that provides an illusion to the users of a very large (main) memory",
+        "A type of CPU"
+      ]
+    },
+    {
+      "numb": 4,
+      "question": "What is paging?",
+      "answer": "A memory management scheme that eliminates the need for contiguous allocation of physical memory by dividing memory into fixed-size blocks called pages and using a page table to map logical addresses to physical addresses",
+      "options": [
+        "A process of allocating memory blocks of variable sizes",
+        "A process of allocating memory blocks of fixed sizes",
+        "A memory management scheme that eliminates the need for contiguous allocation of physical memory by dividing memory into fixed-size blocks called pages and using a page table to map logical addresses to physical addresses",
+        "A process of managing input/output devices"
+      ]
+    },
+    {
+      "numb": 5,
+      "question": "What is segmentation?",
+      "answer": "A memory management scheme that supports the user view of memory as a collection of variable-sized segments, each with its own logical address space",
+      "options": [
+        "A process of allocating memory blocks of variable sizes",
+        "A process of allocating memory blocks of fixed sizes",
+        "A memory management scheme that supports the user view of memory as a collection of variable-sized segments, each with its own logical address space",
+        "A process of managing input/output devices"
+      ]
+    },
+    {
+      "numb": 6,
+      "question": "What is fragmentation?",
+      "answer": "A phenomenon in memory management where memory space is wasted due to inefficient use of available memory blocks",
+      "options": [
+        "The process of consolidating memory blocks",
+        "The process of efficiently using available memory blocks",
+        "A phenomenon in memory management where memory space is wasted due to inefficient use of available memory blocks",
+        "A process of managing input/output devices"
+      ]
+    },
+    {
+      "numb": 7,
+      "question": "What is internal fragmentation?",
+      "answer": "Occurs when a memory block allocated to a process is larger than the requested memory size, leading to wasted space within the block",
+      "options": [
+        "Fragmentation caused by gaps between memory blocks",
+        "Fragmentation caused by inefficient use of memory blocks",
+        "Occurs when a memory block allocated to a process is larger than the requested memory size, leading to wasted space within the block",
+        "Occurs when memory blocks are scattered throughout memory"
+      ]
+    },
+    {
+      "numb": 8,
+      "question": "What is external fragmentation?",
+      "answer": "Occurs when there is enough total memory space to satisfy a request, but it is not contiguous, leading to inefficient memory utilization",
+      "options": [
+        "Fragmentation caused by gaps between memory blocks",
+        "Fragmentation caused by inefficient use of memory blocks",
+        "Occurs when there is enough total memory space to satisfy a request, but it is not contiguous, leading to inefficient memory utilization",
+        "Occurs when memory blocks are scattered throughout memory"
+      ]
+    },
+    {
+      "numb": 9,
+      "question": "What is compaction?",
+      "answer": "The process of rearranging allocated memory blocks to create larger contiguous free memory blocks",
+      "options": [
+        "The process of dividing memory into fixed-size blocks",
+        "The process of rearranging allocated memory blocks to create larger contiguous free memory blocks",
+        "The process of allocating memory blocks of variable sizes",
+        "The process of managing input/output devices"
+      ]
+    },
+    {
+      "numb": 10,
+      "question": "What is memory paging?",
+      "answer": "The process of dividing memory into fixed-size blocks",
+      "options": [
+        "The process of dividing memory into fixed-size blocks",
+        "The process of allocating memory blocks of variable sizes",
+        "The process of efficiently using available memory blocks",
+        "The process of managing input/output devices"
+      ]
+    }
+  ]
+}
+
+,{
+  "title": "File Systems",
+  "content": [
+    {
+      "numb": 1,
+      "question": "What is a file system?",
+      "answer": "A method used by operating systems to store, retrieve, and organize files on a storage device",
+      "options": [
+        "A system for organizing paper documents",
+        "A method used by operating systems to store, retrieve, and organize files on a storage device",
+        "A network protocol for transferring files between computers",
+        "A type of encryption algorithm"
+      ]
+    },
+    {
+      "numb": 2,
+      "question": "What are the main components of a file system?",
+      "answer": "File control block (FCB), directory structure, and methods for allocating and managing disk space",
+      "options": [
+        "CPU, RAM, and GPU",
+        "File control block (FCB), directory structure, and methods for allocating and managing disk space",
+        "Keyboard, mouse, and monitor",
+        "Operating system, applications, and data"
+      ]
+    },
+    {
+      "numb": 3,
+      "question": "What is a file control block (FCB)?",
+      "answer": "A data structure used by the operating system to represent information about a file, such as its name, location, size, and permissions",
+      "options": [
+        "A block of memory allocated for storing file data",
+        "A control panel for managing files",
+        "A data structure used by the operating system to represent information about a file, such as its name, location, size, and permissions",
+        "A type of encryption algorithm"
+      ]
+    },
+    {
+      "numb": 4,
+      "question": "What is a directory structure?",
+      "answer": "A hierarchical organization of directories (folders) and files within a file system, allowing users to organize and navigate their files",
+      "options": [
+        "A list of files stored on a storage device",
+        "A method for compressing files to save disk space",
+        "A hierarchical organization of directories (folders) and files within a file system, allowing users to organize and navigate their files",
+        "A type of encryption algorithm"
+      ]
+    },
+    {
+      "numb": 5,
+      "question": "What is a path?",
+      "answer": "A unique identifier that specifies the location of a file or directory within a file system",
+      "options": [
+        "A method for accessing remote files over a network",
+        "A unique identifier that specifies the location of a file or directory within a file system",
+        "A type of encryption algorithm",
+        "A type of compression algorithm"
+      ]
+    },
+    {
+      "numb": 6,
+      "question": "What is file metadata?",
+      "answer": "Additional information associated with a file, such as its creation date, last modified date, size, and permissions",
+      "options": [
+        "The actual contents of a file",
+        "A method for encrypting file contents",
+        "Additional information associated with a file, such as its creation date, last modified date, size, and permissions",
+        "A method for compressing file contents"
+      ]
+    },
+    {
+      "numb": 7,
+      "question": "What is file compression?",
+      "answer": "The process of reducing the size of a file to save disk space and improve transfer speeds",
+      "options": [
+        "The process of encrypting file contents",
+        "The process of converting file contents into a different format",
+        "The process of reducing the size of a file to save disk space and improve transfer speeds",
+        "The process of splitting a file into multiple smaller files"
+      ]
+    },
+    {
+      "numb": 8,
+      "question": "What is file encryption?",
+      "answer": "The process of encoding a file's contents in such a way that only authorized users with the appropriate decryption key can access the original data",
+      "options": [
+        "The process of compressing a file",
+        "The process of converting a file into a different format",
+        "The process of encoding a file's contents in such a way that only authorized users with the appropriate decryption key can access the original data",
+        "The process of splitting a file into multiple smaller files"
+      ]
+    },
+    {
+      "numb": 9,
+      "question": "What is file fragmentation?",
+      "answer": "A phenomenon where a file's data is scattered across non-contiguous sectors on a storage device, leading to slower file access times",
+      "options": [
+        "The process of organizing files into directories",
+        "The process of splitting a file into multiple smaller files",
+        "A phenomenon where a file's data is scattered across non-contiguous sectors on a storage device, leading to slower file access times",
+        "The process of compressing file contents"
+      ]
+    },
+    {
+      "numb": 10,
+      "question": "What is file backup?",
+      "answer": "The process of creating copies of important files and storing them in a separate location to protect against data loss",
+      "options": [
+        "The process of compressing files to save disk space",
+        "The process of encrypting files to protect sensitive information",
+        "The process of creating copies of important files and storing them in a separate location to protect against data loss",
+        "The process of organizing files into directories"
+      ]
+    }
+  ]
+}
+,{
+  "title": "Scheduling Algorithms",
+  "content": [
+    {
+      "numb": 1,
+      "question": "What is CPU scheduling?",
+      "answer": "The process by which the operating system decides which processes should run, in what order, and for how long, on the CPU",
+      "options": [
+        "The process of allocating memory to processes",
+        "The process of managing input/output devices",
+        "The process by which the operating system decides which processes should run, in what order, and for how long, on the CPU",
+        "The process of compressing files to save disk space"
+      ]
+    },
+    {
+      "numb": 2,
+      "question": "What are the main goals of CPU scheduling?",
+      "answer": "To maximize CPU utilization, ensure fairness in process execution, minimize response time, and maximize throughput",
+      "options": [
+        "To minimize CPU utilization",
+        "To maximize disk utilization",
+        "To maximize CPU utilization, ensure fairness in process execution, minimize response time, and maximize throughput",
+        "To minimize response time"
+      ]
+    },
+    {
+      "numb": 3,
+      "question": "What is preemptive scheduling?",
+      "answer": "A scheduling policy where the operating system can interrupt a currently running process to allocate the CPU to a higher-priority process",
+      "options": [
+        "A scheduling policy where processes are executed one after the other without interruption",
+        "A scheduling policy where the operating system can interrupt a currently running process to allocate the CPU to a higher-priority process",
+        "A scheduling policy where processes are assigned fixed time slots for execution",
+        "A scheduling policy where processes are executed simultaneously on multiple CPUs"
+      ]
+    },
+    {
+      "numb": 4,
+      "question": "What is non-preemptive scheduling?",
+      "answer": "A scheduling policy where processes are executed one after the other without interruption",
+      "options": [
+        "A scheduling policy where processes are executed one after the other without interruption",
+        "A scheduling policy where processes are assigned fixed time slots for execution",
+        "A scheduling policy where the operating system can interrupt a currently running process to allocate the CPU to a higher-priority process",
+        "A scheduling policy where processes are executed simultaneously on multiple CPUs"
+      ]
+    },
+    {
+      "numb": 5,
+      "question": "What is the difference between preemptive and non-preemptive scheduling?",
+      "answer": "Preemptive scheduling allows the operating system to interrupt a running process to allocate the CPU to another process, while non-preemptive scheduling requires the running process to voluntarily give up the CPU",
+      "options": [
+        "Preemptive scheduling allows processes to execute one after the other without interruption, while non-preemptive scheduling interrupts a running process to allocate the CPU to another process",
+        "Preemptive scheduling allows the operating system to interrupt a running process to allocate the CPU to another process, while non-preemptive scheduling requires the running process to voluntarily give up the CPU",
+        "Preemptive scheduling assigns fixed time slots to processes for execution, while non-preemptive scheduling allows processes to execute simultaneously on multiple CPUs",
+        "Preemptive scheduling prioritizes CPU-bound processes, while non-preemptive scheduling prioritizes I/O-bound processes"
+      ]
+    },
+    {
+      "numb": 6,
+      "question": "What is the FCFS scheduling algorithm?",
+      "answer": "A scheduling algorithm where processes are executed one after the other without interruption",
+      "options": [
+        "A scheduling algorithm where processes are executed one after the other without interruption",
+        "A scheduling algorithm where the operating system can interrupt a currently running process to allocate the CPU to a higher-priority process",
+        "A scheduling algorithm where processes are assigned fixed time slots for execution",
+        "A scheduling algorithm where processes are executed simultaneously on multiple CPUs"
+      ]
+    },
+    {
+      "numb": 7,
+      "question": "What is the SJF scheduling algorithm?",
+      "answer": "A scheduling algorithm where the process with the shortest burst time is scheduled next, minimizing average waiting time",
+      "options": [
+        "A scheduling algorithm where processes are executed one after the other without interruption",
+        "A scheduling algorithm where the process with the shortest burst time is scheduled next, minimizing average waiting time",
+        "A scheduling algorithm where processes are assigned fixed time slots for execution",
+        "A scheduling algorithm where processes are executed simultaneously on multiple CPUs"
+      ]
+    },
+    {
+      "numb": 8,
+      "question": "What is the Round Robin scheduling algorithm?",
+      "answer": "A preemptive scheduling algorithm where each process is assigned a fixed time slice to execute, and if it does not finish within the time slice, it is moved to the end of the ready queue",
+      "options": [
+        "A scheduling algorithm where processes are executed one after the other without interruption",
+        "A scheduling algorithm where the process with the shortest burst time is scheduled next, minimizing average waiting time",
+        "A preemptive scheduling algorithm where each process is assigned a fixed time slice to execute, and if it does not finish within the time slice, it is moved to the end of the ready queue",
+        "A scheduling algorithm where processes are executed simultaneously on multiple CPUs"
+      ]
+    },
+    {
+      "numb": 9,
+      "question": "What is priority scheduling?",
+      "answer": "A scheduling algorithm where each process is assigned a priority, and the CPU is allocated to the highest-priority process in the ready queue",
+      "options": [
+        "A scheduling algorithm where processes are executed one after the other without interruption",
+        "A scheduling algorithm where the process with the shortest burst time is scheduled next, minimizing average waiting time",
+        "A scheduling algorithm where each process is assigned a priority, and the CPU is allocated to the highest-priority process in the ready queue",
+        "A scheduling algorithm where processes are executed simultaneously on multiple CPUs"
+      ]
+    },
+    {
+      "numb": 10,
+      "question": "What is multilevel feedback queue scheduling?",
+      "answer": "A scheduling algorithm that assigns processes to multiple queues based on their characteristics and adjusts their priority dynamically based on their behavior",
+      "options": [
+        "A scheduling algorithm where processes are executed one after the other without interruption",
+        "A scheduling algorithm where processes are assigned fixed time slots for execution",
+        "A scheduling algorithm that assigns processes to multiple queues based on their characteristics and adjusts their priority dynamically based on their behavior",
+        "A scheduling algorithm where processes are executed simultaneously on multiple CPUs"
+      ]
+    }
+  ]
+}
+
+,
+{
+  "title": "Relational Databases",
+  "content": [
+    {
+      "numb": 1,
+      "question": "What is a relational database?",
+      "answer": "A type of database that organizes data into tables (relations), where each table consists of rows and columns, and relationships between tables are defined by keys",
+      "options": [
+        "A database that stores data in a hierarchical structure",
+        "A database that stores data in a network structure",
+        "A type of database that organizes data into tables (relations), where each table consists of rows and columns, and relationships between tables are defined by keys",
+        "A database that uses graphs to represent data"
+      ]
+    },
+    {
+      "numb": 2,
+      "question": "What is a table in a relational database?",
+      "answer": "A collection of related data organized into rows and columns, where each row represents a record and each column represents a field",
+      "options": [
+        "A database that stores data in a hierarchical structure",
+        "A collection of related data organized into rows and columns, where each row represents a record and each column represents a field",
+        "A type of database that organizes data into tables (relations), where each table consists of rows and columns, and relationships between tables are defined by keys",
+        "A database that uses graphs to represent data"
+      ]
+    },
+    {
+      "numb": 3,
+      "question": "What is a row in a table?",
+      "answer": "A collection of related data organized into rows and columns, where each row represents a record and each column represents a field",
+      "options": [
+        "A collection of related data organized into rows and columns, where each row represents a record and each column represents a field",
+        "A database that stores data in a hierarchical structure",
+        "A type of database that organizes data into tables (relations), where each table consists of rows and columns, and relationships between tables are defined by keys",
+        "A database that uses graphs to represent data"
+      ]
+    },
+    {
+      "numb": 4,
+      "question": "What is a column in a table?",
+      "answer": "A type of database that organizes data into tables (relations), where each table consists of rows and columns, and relationships between tables are defined by keys",
+      "options": [
+        "A collection of related data organized into rows and columns, where each row represents a record and each column represents a field",
+        "A database that stores data in a hierarchical structure",
+        "A type of database that organizes data into tables (relations), where each table consists of rows and columns, and relationships between tables are defined by keys",
+        "A database that uses graphs to represent data"
+      ]
+    },
+    {
+      "numb": 5,
+      "question": "What is a primary key?",
+      "answer": "A unique identifier for each record in a table, used to enforce entity integrity and ensure that each record can be uniquely identified",
+      "options": [
+        "A collection of related data organized into rows and columns, where each row represents a record and each column represents a field",
+        "A type of encryption algorithm",
+        "A unique identifier for each record in a table, used to enforce entity integrity and ensure that each record can be uniquely identified",
+        "A database that stores data in a hierarchical structure"
+      ]
+    },
+    {
+      "numb": 6,
+      "question": "What is a foreign key?",
+      "answer": "A field in one table that refers to the primary key of another table, establishing a relationship between the two tables",
+      "options": [
+        "A collection of related data organized into rows and columns, where each row represents a record and each column represents a field",
+        "A type of encryption algorithm",
+        "A field in one table that refers to the primary key of another table, establishing a relationship between the two tables",
+        "A database that stores data in a hierarchical structure"
+      ]
+    },
+    {
+      "numb": 7,
+      "question": "What is normalization?",
+      "answer": "The process of organizing data in a database to reduce redundancy and dependency, ensuring data integrity and optimizing database performance",
+      "options": [
+        "A process of adding redundancy to data in a database",
+        "The process of organizing data in a database to reduce redundancy and dependency, ensuring data integrity and optimizing database performance",
+        "A process of converting data into a different format for storage",
+        "A process of compressing data to save disk space"
+      ]
+    },
+    {
+      "numb": 8,
+      "question": "What is denormalization?",
+      "answer": "The process of intentionally adding redundancy to a database by relaxing normalization rules, often to improve query performance or simplify data retrieval",
+      "options": [
+        "The process of organizing data in a database to reduce redundancy and dependency, ensuring data integrity and optimizing database performance",
+        "A process of adding redundancy to data in a database",
+        "A process of converting data into a different format for storage",
+        "A process of compressing data to save disk space"
+      ]
+    },
+    {
+      "numb": 9,
+      "question": "What is ACID in database transactions?",
+      "answer": "A set of properties that guarantee that database transactions are processed reliably and consistently",
+      "options": [
+        "A set of properties that guarantee that database transactions are processed reliably and consistently",
+        "A type of encryption algorithm",
+        "A process of organizing data in a database to reduce redundancy and dependency, ensuring data integrity and optimizing database performance",
+        "A process of compressing data to save disk space"
+      ]
+    },
+    {
+      "numb": 10,
+      "question": "What is a database index?",
+      "answer": "A data structure that improves the speed of data retrieval operations on a database table by providing quick access to specific rows based on the values of certain columns",
+      "options": [
+        "A process of organizing data in a database to reduce redundancy and dependency, ensuring data integrity and optimizing database performance",
+        "A data structure that improves the speed of data retrieval operations on a database table by providing quick access to specific rows based on the values of certain columns",
+        "A type of encryption algorithm",
+        "A process of compressing data to save disk space"
+      ]
+    }
+  ]
+}
+
+,{
+  "title": "SQL Queries",
+  "content": [
+    {
+      "numb": 1,
+      "question": "What is SQL?",
+      "answer": "A programming language used for managing and manipulating data in relational database management systems",
+      "options": [
+        "A programming language for building web applications",
+        "A programming language used for managing and manipulating data in relational database management systems",
+        "A scripting language for client-side web development",
+        "A type of encryption algorithm"
+      ]
+    },
+    {
+      "numb": 2,
+      "question": "What are the basic SQL commands?",
+      "answer": "Commands for managing and manipulating data in relational database management systems",
+      "options": [
+        "Commands for controlling the operating system",
+        "Commands for creating web pages",
+        "Commands for managing and manipulating data in relational database management systems",
+        "Commands for encrypting and decrypting data"
+      ]
+    },
+    {
+      "numb": 3,
+      "question": "What is a SQL SELECT statement?",
+      "answer": "A statement used to retrieve data from one or more tables in a database based on specified criteria",
+      "options": [
+        "A statement used to create a new table",
+        "A statement used to modify existing records",
+        "A statement used to retrieve data from one or more tables in a database based on specified criteria",
+        "A statement used to delete records from a table"
+      ]
+    },
+    {
+      "numb": 4,
+      "question": "What is a SQL WHERE clause?",
+      "answer": "A clause used to specify a condition that must be met for a row to be included in the result set of a SELECT query",
+      "options": [
+        "A clause used to order the result set of a SELECT query",
+        "A clause used to group rows with the same value into summary rows",
+        "A clause used to specify a condition that must be met for a row to be included in the result set of a SELECT query",
+        "A clause used to join multiple tables in a SELECT query"
+      ]
+    },
+    {
+      "numb": 5,
+      "question": "What is a SQL JOIN?",
+      "answer": "A command for combining rows from two or more tables based on a related column between them",
+      "options": [
+        "A command for creating a new table",
+        "A command for deleting records from a table",
+        "A command for modifying existing records",
+        "A command for combining rows from two or more tables based on a related column between them"
+      ]
+    },
+    {
+      "numb": 6,
+      "question": "What is a SQL GROUP BY clause?",
+      "answer": "A clause used to group rows with the same value into summary rows based on specified column(s)",
+      "options": [
+        "A clause used to order the result set of a SELECT query",
+        "A clause used to filter the rows returned by a SELECT query",
+        "A clause used to join multiple tables in a SELECT query",
+        "A clause used to group rows with the same value into summary rows based on specified column(s)"
+      ]
+    },
+    {
+      "numb": 7,
+      "question": "What is a SQL ORDER BY clause?",
+      "answer": "A clause used to sort the rows returned by a SELECT query based on specified column(s) and sorting criteria",
+      "options": [
+        "A clause used to filter the rows returned by a SELECT query",
+        "A clause used to group rows with the same value into summary rows based on specified column(s)",
+        "A clause used to join multiple tables in a SELECT query",
+        "A clause used to sort the rows returned by a SELECT query based on specified column(s) and sorting criteria"
+      ]
+    },
+    {
+      "numb": 8,
+      "question": "What is a SQL INSERT statement?",
+      "answer": "A statement used to add new records (rows) to a table in a database",
+      "options": [
+        "A statement used to retrieve data from one or more tables in a database based on specified criteria",
+        "A statement used to modify existing records",
+        "A statement used to add new records (rows) to a table in a database",
+        "A statement used to delete records from a table"
+      ]
+    },
+    {
+      "numb": 9,
+      "question": "What is a SQL UPDATE statement?",
+      "answer": "A statement used to modify existing records (rows) in a table in a database",
+      "options": [
+        "A statement used to retrieve data from one or more tables in a database based on specified criteria",
+        "A statement used to add new records (rows) to a table in a database",
+        "A statement used to modify existing records (rows) in a table in a database",
+        "A statement used to delete records from a table"
+      ]
+    },
+    {
+      "numb": 10,
+      "question": "What is a SQL DELETE statement?",
+      "answer": "A statement used to remove existing records (rows) from a table in a database",
+      "options": [
+        "A statement used to retrieve data from one or more tables in a database based on specified criteria",
+        "A statement used to add new records (rows) to a table in a database",
+        "A statement used to modify existing records (rows) in a table in a database",
+        "A statement used to remove existing records (rows) from a table in a database"
+      ]
+    }
+  ]
+}
+,{
+  "title": "Database Normalization",
+  "content": [
+    {
+      "numb": 1,
+      "question": "What is database normalization?",
+      "answer": "The process of organizing data in a database to reduce redundancy and dependency by dividing large tables into smaller tables and defining relationships between them",
+      "options": [
+        "The process of adding redundancy to a database",
+        "The process of compressing data in a database",
+        "The process of organizing data in a database to reduce redundancy and dependency by dividing large tables into smaller tables and defining relationships between them",
+        "The process of converting data into a different format for storage"
+      ]
+    },
+    {
+      "numb": 2,
+      "question": "What are the objectives of database normalization?",
+      "answer": "To improve data integrity and reduce the chances of data anomalies",
+      "options": [
+        "To increase data redundancy",
+        "To complicate database maintenance and modifications",
+        "To improve data integrity and reduce the chances of data anomalies",
+        "To decrease database performance"
+      ]
+    },
+    {
+      "numb": 3,
+      "question": "What are the different normal forms in database normalization?",
+      "answer": "Multiple normal forms, including First Normal Form (1NF), Second Normal Form (2NF), Third Normal Form (3NF), Boyce-Codd Normal Form (BCNF), and Fourth Normal Form (4NF)",
+      "options": [
+        "Only one normal form",
+        "First Normal Form (1NF) only",
+        "Multiple normal forms, including First Normal Form (1NF), Second Normal Form (2NF), Third Normal Form (3NF), Boyce-Codd Normal Form (BCNF), and Fourth Normal Form (4NF)",
+        "Only Fourth Normal Form (4NF)"
+      ]
+    },
+    {
+      "numb": 4,
+      "question": "What is First Normal Form (1NF)?",
+      "answer": "Requires that each column in a table contains atomic values and there are no repeating groups of columns",
+      "options": [
+        "Requires that each column in a table contains atomic values and there are no repeating groups of columns",
+        "Allows repeating groups of columns in a table",
+        "Allows non-atomic values in a table",
+        "Does not address data redundancy"
+      ]
+    },
+    {
+      "numb": 5,
+      "question": "What is Second Normal Form (2NF)?",
+      "answer": "Requires that non-key attributes are fully functionally dependent on the primary key",
+      "options": [
+        "Requires that each column in a table contains atomic values and there are no repeating groups of columns",
+        "Requires that non-key attributes are fully functionally dependent on the primary key",
+        "Allows repeating groups of columns in a table",
+        "Does not address data redundancy"
+      ]
+    },
+    {
+      "numb": 6,
+      "question": "What is Third Normal Form (3NF)?",
+      "answer": "Removes transitive dependencies",
+      "options": [
+        "Requires that each column in a table contains atomic values and there are no repeating groups of columns",
+        "Requires that non-key attributes are fully functionally dependent on the primary key",
+        "Removes transitive dependencies",
+        "Allows repeating groups of columns in a table"
+      ]
+    },
+    {
+      "numb": 7,
+      "question": "What is Boyce-Codd Normal Form (BCNF)?",
+      "answer": "Every determinant (candidate key) in a table is a candidate key",
+      "options": [
+        "Requires that each column in a table contains atomic values and there are no repeating groups of columns",
+        "Requires that non-key attributes are fully functionally dependent on the primary key",
+        "Removes transitive dependencies",
+        "Every determinant (candidate key) in a table is a candidate key"
+      ]
+    },
+    {
+      "numb": 8,
+      "question": "What is Fourth Normal Form (4NF)?",
+      "answer": "Addresses multi-valued dependencies",
+      "options": [
+        "Requires that each column in a table contains atomic values and there are no repeating groups of columns",
+        "Requires that non-key attributes are fully functionally dependent on the primary key",
+        "Removes transitive dependencies",
+        "Addresses multi-valued dependencies"
+      ]
+    },
+    {
+      "numb": 9,
+      "question": "What are some benefits of database normalization?",
+      "answer": "Improved data integrity, reduced data redundancy, increased query flexibility, easier database maintenance and modifications, and better database performance",
+      "options": [
+        "Increased data redundancy",
+        "Decreased data integrity",
+        "Decreased query flexibility",
+        "Easier database maintenance and modifications"
+      ]
+    },
+    {
+      "numb": 10,
+      "question": "When should denormalization be considered?",
+      "answer": "When performance optimization is necessary",
+      "options": [
+        "For every database",
+        "Only for small databases",
+        "Only for databases with low query complexity",
+        "When performance optimization is necessary"
+      ]
+    }
+  ]
+}
+
+,{
+  "title": "Transaction Management",
+  "content": [
+    {
+      "numb": 1,
+      "question": "What is a database transaction?",
+      "answer": "A single logical unit of work that consists of one or more database operations that must be executed together as a whole",
+      "options": [
+        "A single database operation",
+        "A collection of unrelated database operations",
+        "A single logical unit of work that consists of one or more database operations that must be executed together as a whole",
+        "A backup of the database"
+      ]
+    },
+    {
+      "numb": 2,
+      "question": "What are the ACID properties of a transaction?",
+      "answer": "Atomicity, Consistency, Isolation, and Durability",
+      "options": [
+        "Atomicity, Consistency, Interaction, and Durability",
+        "Atomicity, Complexity, Isolation, and Durability",
+        "Atomicity, Consistency, Isolation, and Durability",
+        "Adaptability, Consistency, Isolation, and Durability"
+      ]
+    },
+    {
+      "numb": 3,
+      "question": "What is Atomicity in transaction management?",
+      "answer": "Ensures that either all operations within a transaction are successfully completed and committed, or none of them are executed at all",
+      "options": [
+        "Ensures that either all operations within a transaction are successfully completed and committed, or none of them are executed at all",
+        "Ensures that transactions are processed in a consistent manner",
+        "Ensures that transactions are processed independently of each other",
+        "Ensures that the changes made by a transaction are permanent"
+      ]
+    },
+    {
+      "numb": 4,
+      "question": "What is Consistency in transaction management?",
+      "answer": "Ensures that either all operations within a transaction are successfully completed and committed, or none of them are executed at all",
+      "options": [
+        "Ensures that either all operations within a transaction are successfully completed and committed, or none of them are executed at all",
+        "Ensures that transactions are processed in a consistent manner",
+        "Ensures that transactions are processed independently of each other",
+        "Ensures that the changes made by a transaction are permanent"
+      ]
+    },
+    {
+      "numb": 5,
+      "question": "What is Isolation in transaction management?",
+      "answer": "Ensures that the intermediate state of a transaction is invisible to other transactions until the transaction is committed",
+      "options": [
+        "Ensures that either all operations within a transaction are successfully completed and committed, or none of them are executed at all",
+        "Ensures that transactions are processed in a consistent manner",
+        "Ensures that the intermediate state of a transaction is invisible to other transactions until the transaction is committed",
+        "Ensures that the changes made by a transaction are permanent"
+      ]
+    },
+    {
+      "numb": 6,
+      "question": "What is Durability in transaction management?",
+      "answer": "Ensures that either all operations within a transaction are successfully completed and committed, or none of them are executed at all",
+      "options": [
+        "Ensures that either all operations within a transaction are successfully completed and committed, or none of them are executed at all",
+        "Ensures that transactions are processed in a consistent manner",
+        "Ensures that the changes made by a transaction are permanent",
+        "Ensures that the intermediate state of a transaction is invisible to other transactions until the transaction is committed"
+      ]
+    },
+    {
+      "numb": 7,
+      "question": "What is concurrency control in transaction management?",
+      "answer": "The process of managing and coordinating concurrent transactions to ensure data consistency and integrity in a multi-user database environment",
+      "options": [
+        "Ensures that transactions are processed in a consistent manner",
+        "Ensures that the intermediate state of a transaction is invisible to other transactions until the transaction is committed",
+        "Ensures that transactions are processed independently of each other",
+        "The process of managing and coordinating concurrent transactions to ensure data consistency and integrity in a multi-user database environment"
+      ]
+    },
+    {
+      "numb": 8,
+      "question": "What are the common concurrency control techniques?",
+      "answer": "Locking, timestamp ordering, and optimistic concurrency control",
+      "options": [
+        "Validation and verification",
+        "Error detection and correction",
+        "Locking, timestamp ordering, and optimistic concurrency control",
+        "Data compression and encryption"
+      ]
+    },
+    {
+      "numb": 9,
+      "question": "What is a transaction rollback?",
+      "answer": "The process of undoing the changes made by a transaction and restoring the database to its previous state",
+      "options": [
+        "The process of undoing the changes made by a transaction and restoring the database to its previous state",
+        "The process of committing a transaction and making its changes permanent",
+        "The process of initiating a new transaction",
+        "The process of managing and coordinating concurrent transactions"
+      ]
+    },
+    {
+      "numb": 10,
+      "question": "What is a transaction commit?",
+      "answer": "The process of committing a transaction and making its changes permanent",
+      "options": [
+        "The process of undoing the changes made by a transaction and restoring the database to its previous state",
+        "The process of initiating a new transaction",
+        "The process of committing a transaction and making its changes permanent",
+        "The process of managing and coordinating concurrent transactions"
+      ]
+    }
+  ]
+}
+
+,{
+  "title": "Machine Learning",
+  "content": [
+    {
+      "numb": 1,
+      "question": "What is machine learning?",
+      "answer": "A subset of artificial intelligence (AI) that focuses on enabling computers to learn from data",
+      "options": [
+        "A programming technique for building web applications",
+        "A subset of artificial intelligence (AI) that focuses on enabling computers to learn from data",
+        "A form of encryption algorithm",
+        "A method for optimizing database queries"
+      ]
+    },
+    {
+      "numb": 2,
+      "question": "What are the main types of machine learning?",
+      "answer": "Supervised learning, unsupervised learning, and reinforcement learning",
+      "options": [
+        "Supervised learning, unsupervised learning, and semi-supervised learning",
+        "Unsupervised learning, supervised learning, and reinforcement learning",
+        "Supervised learning, reinforcement learning, and deep learning",
+        "Deep learning, supervised learning, and semi-supervised learning"
+      ]
+    },
+    {
+      "numb": 3,
+      "question": "What is supervised learning?",
+      "answer": "A type of machine learning where the model is trained on a labeled dataset",
+      "options": [
+        "A type of machine learning where the model is trained on a labeled dataset",
+        "A type of machine learning where the model is trained on an unlabeled dataset",
+        "A type of machine learning where the model learns from its own actions and rewards",
+        "A type of machine learning where the model learns without any guidance"
+      ]
+    },
+    {
+      "numb": 4,
+      "question": "What is unsupervised learning?",
+      "answer": "A type of machine learning where the model is trained on an unlabeled dataset",
+      "options": [
+        "A type of machine learning where the model is trained on a labeled dataset",
+        "A type of machine learning where the model is trained on an unlabeled dataset",
+        "A type of machine learning where the model learns from its own actions and rewards",
+        "A type of machine learning where the model learns without any guidance"
+      ]
+    },
+    {
+      "numb": 5,
+      "question": "What is reinforcement learning?",
+      "answer": "A type of machine learning where the model learns from its own actions and rewards in an interactive environment",
+      "options": [
+        "A type of machine learning where the model is trained on a labeled dataset",
+        "A type of machine learning where the model is trained on an unlabeled dataset",
+        "A type of machine learning where the model learns from its own actions and rewards",
+        "A type of machine learning where the model learns without any guidance"
+      ]
+    },
+    {
+      "numb": 6,
+      "question": "What are some common algorithms used in machine learning?",
+      "answer": "Linear regression, logistic regression, decision trees, random forests, support vector machines (SVM), k-nearest neighbors (KNN), neural networks, and clustering algorithms like k-means",
+      "options": [
+        "Algorithms for compressing data",
+        "Algorithms for encrypting data",
+        "Algorithms for optimizing database queries",
+        "Algorithms for learning from and making predictions based on data"
+      ]
+    },
+    {
+      "numb": 7,
+      "question": "What is overfitting in machine learning?",
+      "answer": "When a machine learning model learns the training data too well, capturing noise or random fluctuations in the data rather than the underlying patterns",
+      "options": [
+        "The process of training a machine learning model",
+        "The process of testing a machine learning model",
+        "The process of making predictions with a machine learning model",
+        "When a machine learning model learns the training data too well, capturing noise or random fluctuations in the data rather than the underlying patterns"
+      ]
+    },
+    {
+      "numb": 8,
+      "question": "What is underfitting in machine learning?",
+      "answer": "When a machine learning model is too simple to capture the underlying structure of the data, resulting in poor performance",
+      "options": [
+        "The process of training a machine learning model",
+        "The process of testing a machine learning model",
+        "The process of making predictions with a machine learning model",
+        "When a machine learning model is too simple to capture the underlying structure of the data, resulting in poor performance"
+      ]
+    },
+    {
+      "numb": 9,
+      "question": "What is feature engineering in machine learning?",
+      "answer": "The process of selecting, transforming, and creating new features from the raw data to improve the performance of machine learning models",
+      "options": [
+        "The process of training a machine learning model",
+        "The process of testing a machine learning model",
+        "The process of making predictions with a machine learning model",
+        "The process of selecting, transforming, and creating new features from the raw data to improve the performance of machine learning models"
+      ]
+    },
+    {
+      "numb": 10,
+      "question": "What is cross-validation in machine learning?",
+      "answer": "The process of evaluating the performance of machine learning models by splitting the dataset into multiple subsets, training the model on some subsets and testing it on others, and repeating the process multiple times",
+      "options": [
+        "The process of training a machine learning model",
+        "The process of testing a machine learning model",
+        "The process of evaluating the performance of machine learning models by splitting the dataset into multiple subsets, training the model on some subsets and testing it on others, and repeating the process multiple times",
+        "The process of making predictions with a machine learning model"
+      ]
+    }
+  ]
+}
+
+,{
+  "title": "Neural Networks",
+  "content": [
+    {
+      "numb": 1,
+      "question": "What is a neural network?",
+      "answer": "A computational model inspired by the structure and function of the human brain",
+      "options": [
+        "A computer network for connecting neural systems",
+        "A computational model inspired by the structure and function of the human brain",
+        "A type of encryption algorithm",
+        "A programming language for building web applications"
+      ]
+    },
+    {
+      "numb": 2,
+      "question": "What are the main components of a neural network?",
+      "answer": "Input layer, hidden layers, output layer, connections (weights), activation functions, and a loss function",
+      "options": [
+        "Input layer, output layer, and activation functions",
+        "Hidden layers, connections (weights), and loss functions",
+        "Input layer, hidden layers, output layer, connections (weights), activation functions, and a loss function",
+        "Input layer, hidden layers, and output layer only"
+      ]
+    },
+    {
+      "numb": 3,
+      "question": "What is the role of the input layer in a neural network?",
+      "answer": "Receives input data and passes it to the hidden layers for processing",
+      "options": [
+        "Receives input data and passes it to the hidden layers for processing",
+        "Performs calculations on input data",
+        "Generates output predictions",
+        "Stores the learned parameters of the model"
+      ]
+    },
+    {
+      "numb": 4,
+      "question": "What are hidden layers in a neural network?",
+      "answer": "Intermediate layers between the input and output layers",
+      "options": [
+        "Layers that are not visible to the user",
+        "Layers that contain the output predictions",
+        "Intermediate layers between the input and output layers",
+        "Layers that contain the input data"
+      ]
+    },
+    {
+      "numb": 5,
+      "question": "What is the output layer in a neural network?",
+      "answer": "Generates final predictions or outputs",
+      "options": [
+        "Receives input data and passes it to the hidden layers for processing",
+        "Performs calculations on input data",
+        "Generates final predictions or outputs",
+        "Stores the learned parameters of the model"
+      ]
+    },
+    {
+      "numb": 6,
+      "question": "What are activation functions in a neural network?",
+      "answer": "Functions that introduce non-linearity into the output of neurons",
+      "options": [
+        "Functions that perform calculations on input data",
+        "Functions that generate final predictions or outputs",
+        "Functions that introduce non-linearity into the output of neurons",
+        "Functions that store the learned parameters of the model"
+      ]
+    },
+    {
+      "numb": 7,
+      "question": "What are some common activation functions used in neural networks?",
+      "answer": "Sigmoid, tanh, ReLU, and softmax",
+      "options": [
+        "Sine and cosine functions",
+        "Logarithmic functions",
+        "Sigmoid, tanh, ReLU, and softmax",
+        "Exponential functions"
+      ]
+    },
+    {
+      "numb": 8,
+      "question": "What is backpropagation in neural networks?",
+      "answer": "A supervised learning algorithm used to train neural networks",
+      "options": [
+        "A type of activation function",
+        "A supervised learning algorithm used to train neural networks",
+        "An unsupervised learning algorithm",
+        "A reinforcement learning algorithm"
+      ]
+    },
+    {
+      "numb": 9,
+      "question": "What is gradient descent in neural networks?",
+      "answer": "An optimization algorithm used to minimize the loss function",
+      "options": [
+        "An algorithm for generating random numbers",
+        "An algorithm for calculating derivatives",
+        "An optimization algorithm used to minimize the loss function",
+        "An algorithm for selecting the best features"
+      ]
+    },
+    {
+      "numb": 10,
+      "question": "What are some common types of neural networks?",
+      "answer": "Feedforward neural networks (FNN), convolutional neural networks (CNN), and recurrent neural networks (RNN)",
+      "options": [
+        "Artificial neural networks only",
+        "Feedforward neural networks (FNN) and convolutional neural networks (CNN) only",
+        "Feedforward neural networks (FNN), convolutional neural networks (CNN), and recurrent neural networks (RNN)",
+        "Recurrent neural networks (RNN) only"
+      ]
+    }
+  ]
+}
+,
+{
+  "title": "Natural Language Processing",
+  "content": [
+    {
+      "numb": 1,
+      "question": "What is natural language processing (NLP)?",
+      "answer": "A branch of artificial intelligence that focuses on the interaction between computers and human language",
+      "options": [
+        "A branch of linguistics",
+        "A programming language",
+        "A branch of artificial intelligence that focuses on the interaction between computers and human language",
+        "A type of encryption algorithm"
+      ]
+    },
+    {
+      "numb": 2,
+      "question": "What are some common tasks in natural language processing?",
+      "answer": "Text classification, named entity recognition, and sentiment analysis",
+      "options": [
+        "Data compression and encryption",
+        "Text classification, named entity recognition, and sentiment analysis",
+        "Image classification and object detection",
+        "Speech recognition and synthesis"
+      ]
+    },
+    {
+      "numb": 3,
+      "question": "What is text classification in natural language processing?",
+      "answer": "Categorizing text documents into predefined categories or classes",
+      "options": [
+        "Identifying and extracting named entities from text",
+        "Analyzing the sentiment expressed in text",
+        "Categorizing text documents into predefined categories or classes",
+        "Generating human-like text"
+      ]
+    },
+    {
+      "numb": 4,
+      "question": "What is named entity recognition (NER) in natural language processing?",
+      "answer": "Identifying and extracting named entities from text",
+      "options": [
+        "Identifying and extracting named entities from text",
+        "Analyzing the sentiment expressed in text",
+        "Categorizing text documents into predefined categories or classes",
+        "Generating human-like text"
+      ]
+    },
+    {
+      "numb": 5,
+      "question": "What is sentiment analysis in natural language processing?",
+      "answer": "Analyzing the sentiment expressed in text",
+      "options": [
+        "Identifying and extracting named entities from text",
+        "Analyzing the sentiment expressed in text",
+        "Categorizing text documents into predefined categories or classes",
+        "Generating human-like text"
+      ]
+    },
+    {
+      "numb": 6,
+      "question": "What is machine translation in natural language processing?",
+      "answer": "Automatically translating text from one language to another",
+      "options": [
+        "Automatically generating human-like text",
+        "Analyzing the sentiment expressed in text",
+        "Automatically translating text from one language to another",
+        "Identifying and extracting named entities from text"
+      ]
+    },
+    {
+      "numb": 7,
+      "question": "What is part-of-speech tagging in natural language processing?",
+      "answer": "Assigning grammatical tags to words in a text corpus",
+      "options": [
+        "Analyzing the sentiment expressed in text",
+        "Identifying and extracting named entities from text",
+        "Assigning grammatical tags to words in a text corpus",
+        "Categorizing text documents into predefined categories or classes"
+      ]
+    },
+    {
+      "numb": 8,
+      "question": "What is text summarization in natural language processing?",
+      "answer": "Generating a concise and coherent summary of a longer document or text",
+      "options": [
+        "Automatically generating human-like text",
+        "Automatically translating text from one language to another",
+        "Analyzing the sentiment expressed in text",
+        "Generating a concise and coherent summary of a longer document or text"
+      ]
+    },
+    {
+      "numb": 9,
+      "question": "What are some common techniques used in natural language processing?",
+      "answer": "Tokenization, stemming, lemmatization, word embeddings, and deep learning models",
+      "options": [
+        "Data compression and encryption",
+        "Image classification and object detection",
+        "Tokenization, stemming, lemmatization, word embeddings, and deep learning models",
+        "Speech recognition and synthesis"
+      ]
+    },
+    {
+      "numb": 10,
+      "question": "What are word embeddings in natural language processing?",
+      "answer": "Dense vector representations of words in a high-dimensional space",
+      "options": [
+        "Sparse representations of words in a high-dimensional space",
+        "Dense vector representations of words in a high-dimensional space",
+        "Word representations based on one-hot encoding",
+        "Word representations based on frequency counts"
+      ]
+    }
+  ]
+}
+
+,
+{
+  "title": "Computer Vision",
+  "content": [
+    {
+      "numb": 1,
+      "question": "What is computer vision?",
+      "answer": "A field of artificial intelligence that focuses on interpreting and understanding the visual world",
+      "options": [
+        "A branch of mathematics",
+        "A type of encryption algorithm",
+        "A field of artificial intelligence that focuses on interpreting and understanding the visual world",
+        "A programming language"
+      ]
+    },
+    {
+      "numb": 2,
+      "question": "What are some common tasks in computer vision?",
+      "answer": "Image classification, object detection, and facial recognition",
+      "options": [
+        "Speech recognition and synthesis",
+        "Text classification and sentiment analysis",
+        "Image classification, object detection, and facial recognition",
+        "Data compression and encryption"
+      ]
+    },
+    {
+      "numb": 3,
+      "question": "What is image classification in computer vision?",
+      "answer": "Assigning a label or category to an input image based on its content",
+      "options": [
+        "Identifying and extracting objects from images",
+        "Assigning a label or category to an input image based on its content",
+        "Detecting and tracking moving objects in videos",
+        "Generating realistic images"
+      ]
+    },
+    {
+      "numb": 4,
+      "question": "What is object detection in computer vision?",
+      "answer": "Identifying and extracting objects from images",
+      "options": [
+        "Assigning a label or category to an input image based on its content",
+        "Identifying and extracting objects from images",
+        "Detecting and tracking moving objects in videos",
+        "Generating realistic images"
+      ]
+    },
+    {
+      "numb": 5,
+      "question": "What is image segmentation in computer vision?",
+      "answer": "Partitioning an image into multiple segments or regions based on similarities",
+      "options": [
+        "Identifying and extracting objects from images",
+        "Assigning a label or category to an input image based on its content",
+        "Partitioning an image into multiple segments or regions based on similarities",
+        "Detecting and tracking moving objects in videos"
+      ]
+    },
+    {
+      "numb": 6,
+      "question": "What is facial recognition in computer vision?",
+      "answer": "Identifying and verifying individuals based on their facial features",
+      "options": [
+        "Identifying and extracting objects from images",
+        "Detecting and tracking moving objects in videos",
+        "Identifying and verifying individuals based on their facial features",
+        "Assigning a label or category to an input image based on its content"
+      ]
+    },
+    {
+      "numb": 7,
+      "question": "What is pose estimation in computer vision?",
+      "answer": "Estimating the 3D position and orientation of objects or humans in an image or video",
+      "options": [
+        "Identifying and verifying individuals based on their facial features",
+        "Detecting and tracking moving objects in videos",
+        "Estimating the 3D position and orientation of objects or humans in an image or video",
+        "Partitioning an image into multiple segments or regions based on similarities"
+      ]
+    },
+    {
+      "numb": 8,
+      "question": "What are some common techniques used in computer vision?",
+      "answer": "Convolutional neural networks (CNNs), image preprocessing, and feature extraction",
+      "options": [
+        "Data compression and encryption",
+        "Tokenization, stemming, lemmatization, and word embeddings",
+        "Convolutional neural networks (CNNs), image preprocessing, and feature extraction",
+        "Speech recognition and synthesis"
+      ]
+    },
+    {
+      "numb": 9,
+      "question": "What is convolutional neural network (CNN) in computer vision?",
+      "answer": "A deep learning model specifically designed for processing and analyzing visual data",
+      "options": [
+        "A type of encryption algorithm",
+        "A deep learning model specifically designed for processing and analyzing visual data",
+        "A technique for partitioning an image into multiple segments or regions based on similarities",
+        "A method for identifying and verifying individuals based on their facial features"
+      ]
+    },
+    {
+      "numb": 10,
+      "question": "What is transfer learning in computer vision?",
+      "answer": "A machine learning technique where a model trained on one task or dataset is reused or adapted to perform a related task or dataset",
+      "options": [
+        "A technique for partitioning an image into multiple segments or regions based on similarities",
+        "A machine learning technique where a model trained on one task or dataset is reused or adapted to perform a related task or dataset",
+        "A method for identifying and verifying individuals based on their facial features",
+        "A method for estimating the 3D position and orientation of objects or humans in an image or video"
+      ]
+    }
+  ]
+}
+
+,
+{
+  "title": "Software Development Life Cycle",
+  "content": [
+    {
+      "numb": 1,
+      "question": "What is the software development life cycle (SDLC)?",
+      "answer": "A process used by software development teams to plan, design, build, test, deploy, and maintain software applications",
+      "options": [
+        "A programming language",
+        "A process used by software development teams to plan, design, build, test, deploy, and maintain software applications",
+        "A type of encryption algorithm",
+        "A project management framework"
+      ]
+    },
+    {
+      "numb": 2,
+      "question": "What are the phases of the software development life cycle?",
+      "answer": "Requirements gathering, analysis, design, implementation, testing, deployment, and maintenance",
+      "options": [
+        "Requirements gathering, analysis, design, implementation, testing, deployment, and maintenance",
+        "Planning, execution, monitoring, and control",
+        "Development, testing, and deployment",
+        "Design, implementation, and maintenance"
+      ]
+    },
+    {
+      "numb": 3,
+      "question": "What is requirements gathering in the software development life cycle?",
+      "answer": "Collecting, analyzing, and documenting stakeholders' needs and expectations",
+      "options": [
+        "Identifying bugs and issues in the software",
+        "Collecting, analyzing, and documenting stakeholders' needs and expectations",
+        "Designing the user interface of the software",
+        "Deploying the software to production"
+      ]
+    },
+    {
+      "numb": 4,
+      "question": "What is analysis in the software development life cycle?",
+      "answer": "Reviewing, refining, and prioritizing the gathered requirements",
+      "options": [
+        "Writing code for the software",
+        "Reviewing, refining, and prioritizing the gathered requirements",
+        "Testing the software for bugs and errors",
+        "Deploying the software to production"
+      ]
+    },
+    {
+      "numb": 5,
+      "question": "What is design in the software development life cycle?",
+      "answer": "Planning the system architecture, data structures, algorithms, and user interface",
+      "options": [
+        "Analyzing the requirements for the software",
+        "Writing code for the software",
+        "Planning the system architecture, data structures, algorithms, and user interface",
+        "Testing the software for bugs and errors"
+      ]
+    },
+    {
+      "numb": 6,
+      "question": "What is implementation in the software development life cycle?",
+      "answer": "Building the software according to the design specifications",
+      "options": [
+        "Reviewing and refining the gathered requirements",
+        "Planning the system architecture, data structures, algorithms, and user interface",
+        "Building the software according to the design specifications",
+        "Deploying the software to production"
+      ]
+    },
+    {
+      "numb": 7,
+      "question": "What is testing in the software development life cycle?",
+      "answer": "Evaluating and validating the software to ensure quality and performance",
+      "options": [
+        "Analyzing the requirements for the software",
+        "Building the software according to the design specifications",
+        "Evaluating and validating the software to ensure quality and performance",
+        "Deploying the software to production"
+      ]
+    },
+    {
+      "numb": 8,
+      "question": "What is deployment in the software development life cycle?",
+      "answer": "Releasing and installing the software in the production environment",
+      "options": [
+        "Collecting, analyzing, and documenting stakeholders' needs and expectations",
+        "Reviewing and refining the gathered requirements",
+        "Building the software according to the design specifications",
+        "Releasing and installing the software in the production environment"
+      ]
+    },
+    {
+      "numb": 9,
+      "question": "What is maintenance in the software development life cycle?",
+      "answer": "Updating, enhancing, and modifying the software",
+      "options": [
+        "Writing code for the software",
+        "Reviewing, refining, and prioritizing the gathered requirements",
+        "Updating, enhancing, and modifying the software",
+        "Testing the software for bugs and errors"
+      ]
+    },
+    {
+      "numb": 10,
+      "question": "What are some software development methodologies used in the software development life cycle?",
+      "answer": "Waterfall, agile, iterative, spiral, and DevOps",
+      "options": [
+        "Waterfall, agile, iterative, spiral, and DevOps",
+        "Scrum, Kanban, and XP (Extreme Programming)",
+        "Object-oriented programming and functional programming",
+        "Frontend and backend development"
+      ]
+    }
+  ]
+}
+]    
